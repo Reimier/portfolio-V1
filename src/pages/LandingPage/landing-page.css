@@ -1,0 +1,78 @@
+
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+}
+
+.nav {
+  width: 100%;
+}
+
+.intro {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+#desc {
+
+  font-family: 'Inter';
+  font-size: 20px;
+  color: gray;
+  margin: 0;
+  width: 760px;
+  line-height: 1.1;
+  margin-top: 30px;
+
+}
+
+#header {
+  font-family: 'Inter';
+  font-size: 78px;
+  width: 1000px;
+  margin: 0;
+
+}
+
+.cta {
+
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 35px;
+  
+}
+
+button{
+
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'inter';
+  font-weight: bold;
+  border-width: thin;
+
+}
+
+#cv{
+
+  background-color: white;
+}
+
+#contact{
+
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,28 @@
+
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-family: 'inter';
+    position: fixed; 
+    top: 30px; 
+    width: 100%;
+    z-index: 1000;
+
+}
+
+
+.links{
+
+    display: flex;
+    gap: 25px;
+    margin-right: 100px;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
