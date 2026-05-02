@@ -1,0 +1,28 @@
+
+body{
+
+  /* background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
+  min-height: 100vh; */
+
+
+  background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+
+    color: #1E1E1E;
+    font-family: 'inter';
+}
+
+button{
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border-style: solid;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'inter';
+  font-weight: bold;
+  border: thin;
+  border-style: solid;
+
+}

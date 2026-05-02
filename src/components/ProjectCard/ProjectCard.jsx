@@ -1,6 +1,6 @@
 import "./project-card.css";
 
-export default function ProjectCard(){
+export default function ProjectCard({image, title, tools}){
 
     return(
     <>
@@ -10,13 +10,35 @@ export default function ProjectCard(){
 
         <div className="image">
 
-            <img>
+            <img src={image}>
             
             </img>
 
         </div>
 
-        <h4></h4>
+        <div className="title">
+
+            <p>{title}</p>
+
+
+        </div>
+
+        <div className="tools">
+
+            <p>{tools}</p>
+
+        </div>
+
+        <div className="btn">
+
+          <button id="more">
+            Learn More
+          </button>
+          <button id="visit">
+            Visit Site
+          </button>
+
+        </div>
 
 
     </div>

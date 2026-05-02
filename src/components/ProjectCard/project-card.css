@@ -2,12 +2,59 @@
 .card{
 
     width: 400px;
-    height: 430px;
+    height: 350px;
     border: 1px solid rgba(255,255,255,0.2);
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(12px);
     box-shadow: 0 8px 32px rgba(0,0,0,0.1);
     border-radius: 20px;
+    background-color: white;
 
+}
+
+.image img{
+
+    width: 100%;
+    border-radius: 20px;
+}
+
+.title{
+
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+.tools{
+
+    color: gray;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+
+}
+
+#visit{
+
+  color: #1E1E1E;
+  background-color: white;
+
+}
+
+#more{
+
+  background-color: #1E1E1E;
+  color: white;
 }

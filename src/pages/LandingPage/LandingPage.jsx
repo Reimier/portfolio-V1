@@ -17,7 +17,7 @@ export default function LandingPage() {
 
         <div className="intro">
         
-          <p id="header">Creative Web Developer and UI/UX Designer</p>
+          <p id="header">Creative Web Developer and UI/UX Designer.</p>
           <p id="desc" >I create modern websites that combine elegant visuals with functional design.  My goal is to bring ideas to life with creative, user-centered digital experiences.</p>
 
         </div>
@@ -36,10 +36,37 @@ export default function LandingPage() {
 
         <div className="projects">
 
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
-          <ProjectCard></ProjectCard>
+          <ProjectCard
+
+          image = "shopexpressIMG1.png"
+          title = "Shop Express"
+          tools = "React | Node.js | REST API | JavaScript | Firebase"
+        
+          />
+
+          <ProjectCard
+
+          image = "pokemonIMG1.png"
+          title = "Guess the Pokémon"
+          tools = "React | Node.js | REST API | JavaScript"
+        
+          />
+
+          <ProjectCard
+
+          image = "currencyIMG1.png"
+          title = "Currency Exchange Hub"
+          tools = "React | Node.js | REST API | JavaScript"
+        
+          />
+
+          <ProjectCard
+
+          image = "shopexpressIMG1.png"
+          title = "Shop Express: E-commerce Mockup"
+          tools = "React | Node.js | REST API | JavaScript | Firebase"
+        
+          />
 
         </div>
 

@@ -3,7 +3,7 @@
 .landing {
   display: flex;
   flex-direction: column;
-  margin-top: 180px;
+  margin-top: 0px;
 }
 
 .nav {
@@ -14,9 +14,7 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-left: 345px;
 
 }
 
@@ -28,57 +26,37 @@
   margin: 0;
   width: 760px;
   line-height: 1.1;
-  margin-top: 30px;
+  margin-top: 18px;
 
 }
 
 #header {
   font-family: 'Inter';
   font-size: 68px;
-  width: 800px;
+  width: 900px;
   margin: 0;
-
+  margin-top: 150px;
 }
 
 .cta {
 
-  margin-top: 45px;
+  margin-top: 30px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 35px;
+  margin-left: 345px;
+  gap: 30px;
   
-}
-
-button{
-
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 8px;
-  padding-top: 8px;
-  border-style: solid;
-  border-radius: 10px;
-  cursor: pointer;
-  font-family: 'inter';
-  font-weight: bold;
-      border: 1px solid rgba(255,255,255,0.2);
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(12px);
-    box-shadow: 1px 8px 32px rgba(0,0,0,0.1);
-
 }
 
 #cv{
 
+  color: #1E1E1E;
   background-color: white;
 
 }
 
 #contact{
 
-  background-color: black;
+  background-color: #1E1E1E;
   color: white;
 }
 
