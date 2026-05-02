@@ -55,20 +55,25 @@ button{
 
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-top: 8px;
   border-style: solid;
   border-radius: 10px;
   cursor: pointer;
   font-family: 'inter';
   font-weight: bold;
-  border-width: thin;
+      border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 1px 8px 32px rgba(0,0,0,0.1);
 
 }
 
 #cv{
 
   background-color: white;
+
 }
 
 #contact{
