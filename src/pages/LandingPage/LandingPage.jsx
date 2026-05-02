@@ -17,7 +17,7 @@ export default function LandingPage() {
 
         <div className="intro">
         
-          <p id="header">Creative Web Developer and UI/UX Designer.</p>
+          <p id="header">Creative web developer and UI/UX designer.</p>
           <p id="desc" >I create modern websites that combine elegant visuals with functional design.  My goal is to bring ideas to life with creative, user-centered digital experiences.</p>
 
         </div>
@@ -41,6 +41,7 @@ export default function LandingPage() {
           image = "shopexpressIMG1.png"
           title = "Shop Express"
           tools = "React | Node.js | REST API | JavaScript | Firebase"
+          site = "https://reimier.github.io/shop-express/#/home"
         
           />
 
@@ -49,6 +50,7 @@ export default function LandingPage() {
           image = "pokemonIMG1.png"
           title = "Guess the Pokémon"
           tools = "React | Node.js | REST API | JavaScript"
+          site = "https://reimier.github.io/pokemon-game/#/easy"
         
           />
 
@@ -57,13 +59,14 @@ export default function LandingPage() {
           image = "currencyIMG1.png"
           title = "Currency Exchange Hub"
           tools = "React | Node.js | REST API | JavaScript"
+          site = "https://reimier.github.io/currency-exchange/#/"
         
           />
 
           <ProjectCard
 
           image = "shopexpressIMG1.png"
-          title = "Shop Express: E-commerce Mockup"
+          title = "Fairfly Travel and Tours"
           tools = "React | Node.js | REST API | JavaScript | Firebase"
         
           />
