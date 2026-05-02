@@ -17,7 +17,7 @@ export default function LandingPage() {
 
         <div className="intro">
         
-          <p id="header">Creative Web Developer and Designer</p>
+          <p id="header">Creative Web Developer and UI/UX Designer</p>
           <p id="desc" >I create modern websites that combine elegant visuals with functional design.  My goal is to bring ideas to life with creative, user-centered digital experiences.</p>
 
         </div>
@@ -36,6 +36,9 @@ export default function LandingPage() {
 
         <div className="projects">
 
+          <ProjectCard></ProjectCard>
+          <ProjectCard></ProjectCard>
+          <ProjectCard></ProjectCard>
           <ProjectCard></ProjectCard>
 
         </div>

@@ -8,7 +8,15 @@ export default function ProjectCard(){
 
     <div className="card">
 
-        <h4>Shop Express: E-commerce mockup</h4>
+        <div className="image">
+
+            <img>
+            
+            </img>
+
+        </div>
+
+        <h4></h4>
 
 
     </div>
