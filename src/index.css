@@ -1,8 +1,8 @@
 
 body{
 
-  /* background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
-  min-height: 100vh; */
+  background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
+  min-height: 100vh; 
 
 
     color: #1E1E1E;
@@ -15,13 +15,12 @@ button{
   padding-right: 40px;
   padding-bottom: 7px;
   padding-top: 7px;
-  border-style: solid;
   border-radius: 10px;
   cursor: pointer;
   font-family: 'inter';
   font-weight: bold;
   border: thin;
-  border-style: solid;
+  border-style: none;
 
 }
 
