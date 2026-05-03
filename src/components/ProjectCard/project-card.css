@@ -57,3 +57,55 @@
   background-color: #1E1E1E;
   color: white;
 }
+
+@media screen and (max-width: 767px) {
+
+
+    .card{
+
+    width: 350px;
+    height: 300px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    background-color: white;
+
+}
+
+.image img{
+
+    width: 100%;
+    border-radius: 12px;
+}
+
+.title{
+
+    margin-left: 12px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+.tools{
+
+    color: gray;
+    margin-left: 12px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+}

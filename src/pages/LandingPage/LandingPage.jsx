@@ -17,8 +17,8 @@ export default function LandingPage() {
 
         <div className="intro">
         
-          <p id="header">Creative web developer and UI/UX designer.</p>
-          <p id="desc" >I create modern websites that combine elegant visuals with functional design.  My goal is to bring ideas to life with creative, user-centered digital experiences.</p>
+          <p id="header">Web developer turning ideas into beautiful interfaces.</p>
+          <p id="desc" >I create modern websites that combine elegant visuals with functional design. My work is focused on bringing ideas to life with creative, user-centered digital experiences.</p>
 
         </div>
 
@@ -75,7 +75,7 @@ export default function LandingPage() {
 
         <div className="landing-about">
 
-          <p>I’m Reimier Reyes, a web developer and Designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
+          <p>I’m Reimier Reyes, a web developer and designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
 
           <a id="learn-more">Learn more about me.</a>
 
