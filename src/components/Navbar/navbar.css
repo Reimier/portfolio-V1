@@ -17,7 +17,7 @@ nav {
   backdrop-filter: blur(20px);
 
   border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 999px;
+  border-radius: 18px;
 
   box-shadow:
     0 8px 30px rgba(0, 0, 0, 0.08),
@@ -29,7 +29,7 @@ nav {
   gap: 22px;
 }
 
-a {
+nav a {
   font-size: 16px;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.85);
@@ -41,4 +41,36 @@ nav a:hover {
   opacity: 0.8;
   text-decoration: underline;
   transition: .3s;
+}
+
+@media screen and (max-width: 1024px) {
+
+    nav {
+
+  width: 65%;
+
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+  nav {
+
+  width: 75%;
+  border-radius: 12px;
+
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  font-size: 12px;
+
+}
+
+
 }
