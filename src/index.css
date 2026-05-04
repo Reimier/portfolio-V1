@@ -3,10 +3,9 @@ body{
 
   background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
   min-height: 100vh; 
-
-
-    color: #1E1E1E;
-    font-family: 'inter';
+  overflow-x: hidden;
+  color: #1E1E1E;
+  font-family: 'inter';
 }
 
 button{
