@@ -23,7 +23,7 @@ export default function LandingPage() {
 
         <div className="intro" data-aos="fade-up" >
         
-          <p id="header">Web developer turning ideas into beautiful interfaces.</p>
+          <p id="header">Creative website developer and interface designer.</p>
           <p id="desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative, user-centered digital experiences.</p>
 
         </div>
@@ -46,7 +46,7 @@ export default function LandingPage() {
 
           image = "shopexpressIMG1.png"
           title = "Shop Express"
-          tools = "React.js | Node.js | REST API | Firebase"
+          tools = "Shop Express is an e-commerce mockup made using React, REST API, and Firebase."
           site = "https://reimier.github.io/shop-express/#/home"
         
           />
@@ -55,7 +55,7 @@ export default function LandingPage() {
 
           image = "pokemonIMG1.png"
           title = "Guess the Pokémon"
-          tools = "React.js | Node.js | REST API"
+          tools = "Guess the Pokémon is a web-based game made using the React and PokéAPI REST API."
           site = "https://reimier.github.io/pokemon-game/#/easy"
         
           />
@@ -64,7 +64,7 @@ export default function LandingPage() {
 
           image = "currencyIMG1.png"
           title = "Currency Exchange Hub"
-          tools = "React.js | Node.js | REST API"
+          tools = "Currency Exchange Hub is a currency exchanger made using React and ExchangeRate-API."
           site = "https://reimier.github.io/currency-exchange/#/"
         
           />
@@ -73,7 +73,7 @@ export default function LandingPage() {
 
           image = "shopexpressIMG1.png"
           title = "Fairfly Travel and Tours"
-          tools = "React.js | Node.js | REST API | Firebase"
+          tools = "Fairfly travel and tours is a franchising system made using React and Firebase."
         
           />
 

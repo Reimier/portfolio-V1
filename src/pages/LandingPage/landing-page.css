@@ -65,7 +65,7 @@
   backdrop-filter: blur(20px);
 
   border: 1px solid rgba(130, 130, 130, 0.35);
-  
+
   box-shadow:
     0 8px 30px rgba(0, 0, 0, 0.08),
     inset 0 1px 0 rgba(255, 255, 255, 0.45);
@@ -128,7 +128,7 @@
 @media screen and (max-width: 767px) {
 
     .intro {
-    padding: 0 16px;
+    padding: 0 20px;
   }
 
 #desc {
@@ -175,12 +175,8 @@
   width: 100%;
   max-width: 830px;
   margin-bottom: 150px;
-  padding: 0 16px;
+  padding: 0 20px;
 }
 
-#cv{
-
-  border-radius: 6px;
-}
 
 }
