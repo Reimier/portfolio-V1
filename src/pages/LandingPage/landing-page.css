@@ -131,7 +131,7 @@
   font-family: 'Inter';
   font-size: 20px;
   margin: 0;
-  width: 95%;
+  width: 100%;
   margin-top: 10px;
   color: rgb(80, 80, 80);
 
@@ -160,8 +160,9 @@
 
 .landing-about{
 
-    width: 100%;
+  width: 100%;
   max-width: 830px;
+  margin-bottom: 200px;
 }
 
 #cv{
