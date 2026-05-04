@@ -11,7 +11,7 @@
 
 .intro {
   width: 100%;
-  max-width: 820px;
+  max-width: 830px;
   margin: 0 auto;
   padding: 0 20px;
   line-height: 1.1;
@@ -23,7 +23,7 @@
 
 .cta {
   width: 100%;
-  max-width: 820px;
+  max-width: 830px;
   margin: 30px auto 0 auto;
   padding: 0 20px;
   display: flex;
@@ -78,9 +78,12 @@
 .projects {
   margin-top: 120px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 0 16px;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 30px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
 }
 
 .landing-about{
@@ -154,13 +157,10 @@
 }
 
 
-.projects {
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: repeat(1, 350px);
-  gap: 15px;
-  justify-content: center;
-}
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 
 .landing-about{
 
