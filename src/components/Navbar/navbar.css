@@ -36,7 +36,6 @@ nav a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.85);
   transition: opacity 0.25s ease;
-  transition: .3s;
 }
 
 nav a:hover {
@@ -49,7 +48,7 @@ nav a:hover {
 
     nav {
 
-  width: 65%;
+  width: calc(100% - 40px);
 
 }
 
