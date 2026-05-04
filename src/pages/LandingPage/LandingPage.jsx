@@ -1,28 +1,34 @@
-import Navbar from "../../components/Navbar/Navbar";
+
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./landing-page.css";
 import { NavLink } from "react-router";
+import { useEffect } from "react";
+import AOS from "aos"; 
+import "aos/dist/aos.css"; 
 
 export default function LandingPage() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800, 
+      once: true,
+      easing: 'ease-in-out',
+    });
+  }, []);
+
   return (
     <>
 
     <div className="landing">
 
-        <div className="nav">
-
-            <Navbar></Navbar>
-          
-        </div>
-
-        <div className="intro">
+        <div className="intro" data-aos="fade-up" >
         
           <p id="header">Web developer turning ideas into beautiful interfaces.</p>
-          <p id="desc" >I create modern websites that combine elegant visuals with functional design. My work is focused on bringing ideas to life with creative, user-centered digital experiences.</p>
+          <p id="desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative, user-centered digital experiences.</p>
 
         </div>
 
-        <div className="cta">
+        <div className="cta" data-aos="fade-up" >
 
           <button id="cv">
             Download CV
@@ -40,7 +46,7 @@ export default function LandingPage() {
 
           image = "shopexpressIMG1.png"
           title = "Shop Express"
-          tools = "React | Node.js | REST API | JavaScript | Firebase"
+          tools = "React.js | Node.js | REST API | Firebase"
           site = "https://reimier.github.io/shop-express/#/home"
         
           />
@@ -49,7 +55,7 @@ export default function LandingPage() {
 
           image = "pokemonIMG1.png"
           title = "Guess the Pokémon"
-          tools = "React | Node.js | REST API | JavaScript"
+          tools = "React.js | Node.js | REST API"
           site = "https://reimier.github.io/pokemon-game/#/easy"
         
           />
@@ -58,7 +64,7 @@ export default function LandingPage() {
 
           image = "currencyIMG1.png"
           title = "Currency Exchange Hub"
-          tools = "React | Node.js | REST API | JavaScript"
+          tools = "React.js | Node.js | REST API"
           site = "https://reimier.github.io/currency-exchange/#/"
         
           />
@@ -67,13 +73,13 @@ export default function LandingPage() {
 
           image = "shopexpressIMG1.png"
           title = "Fairfly Travel and Tours"
-          tools = "React | Node.js | REST API | JavaScript | Firebase"
+          tools = "React.js | Node.js | REST API | Firebase"
         
           />
 
         </div>
 
-        <div className="landing-about">
+        <div className="landing-about" data-aos="fade-up" >
 
           <p>I’m Reimier Reyes, a web developer and designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
 

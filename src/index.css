@@ -1,12 +1,20 @@
 
 body{
 
-  background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
-  min-height: 100vh; 
+  /* background: linear-gradient(135deg, #dbeafe, #cfcffb, #ffffff);
+  min-height: 100vh;   */
 
   overflow-x: hidden;
-  color: #1E1E1E;
+  color: #1a1a1a;
   font-family: 'inter';
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+html{
+  scroll-behavior: smooth;
 
 }
 
@@ -17,8 +25,8 @@ body{
 
 button{
 
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 7px;
   padding-top: 7px;
   border-radius: 10px;
@@ -26,7 +34,7 @@ button{
   font-family: 'inter';
   font-weight: bold;
   border: thin;
-  border-style: solid;
+  border-style: none;
 
 }
 
@@ -41,10 +49,10 @@ button{
 
 button{
 
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 4px;
-  padding-top: 4px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   border-style: solid;
   border-radius: 6px;
   cursor: pointer;

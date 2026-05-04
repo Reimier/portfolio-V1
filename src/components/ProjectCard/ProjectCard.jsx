@@ -1,12 +1,23 @@
 import "./project-card.css";
+import AOS from "aos"; // Added AOS import
+import "aos/dist/aos.css"; // Added AOS styles
+import { useEffect } from "react";
 
 export default function ProjectCard({image, title, tools, site, more}){
+
+        useEffect(() => {
+          AOS.init({
+            duration: 800, 
+            once: true,
+            easing: 'ease-in-out',
+          });
+        }, []);
 
     return(
     <>
 
 
-    <div className="card">
+    <div className="card" data-aos="fade-up">
 
         <div className="image">
 

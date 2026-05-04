@@ -8,7 +8,7 @@
 
 .intro {
   width: 100%;
-  max-width: 830px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
   line-height: 1.1;
@@ -20,12 +20,19 @@
 
 .cta {
   width: 100%;
-  max-width: 830px;
+  max-width: 700px;
   margin: 30px auto 0 auto;
   padding: 0 20px;
   display: flex;
   justify-content: flex-start; /* buttons on left */
   gap: 30px;
+}
+
+.cta button{
+
+  padding-left: 119px;
+  padding-right: 120px;
+  
 }
 
 #desc {
@@ -42,10 +49,10 @@
 
 #header {
   font-family: 'Inter';
-  font-size: 58px;
+  font-size: 48px;
   max-width: 100%;
   margin: 0;
-  margin-top: 150px;
+  margin-top: 160px;
   font-weight: 400;
 }
 
@@ -57,9 +64,8 @@
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(20px);
 
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 18px;
-
+  border: 1px solid rgba(130, 130, 130, 0.35);
+  
   box-shadow:
     0 8px 30px rgba(0, 0, 0, 0.08),
     inset 0 1px 0 rgba(255, 255, 255, 0.45);
@@ -84,7 +90,7 @@
 
 .landing-about{
   width: 100%;
-  max-width: 830px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
@@ -92,7 +98,7 @@
   align-items: flex-start;   /* left align content */
   text-align: left;
   margin-top: 100px;
-  margin-bottom: 500px;
+  margin-bottom: 150px;
   font-size: 20px;
   color: rgb(80, 80, 80);
   line-height: 1.4
@@ -131,8 +137,7 @@
   font-size: 20px;
   margin: 0;
   width: 100%;
-  margin-top: 10px;
-  color: rgb(80, 80, 80);
+  margin-top: 20px;
 
 }
 
@@ -146,10 +151,17 @@
 
 .cta {
 
-  margin-top: 25px;
+  margin-top: 30px;
   padding: 0 16px;
   display: flex;
   gap: 15px;
+  
+}
+
+.cta button{
+
+  padding-left: 40px;
+  padding-right: 40px;
   
 }
 
@@ -162,7 +174,7 @@
 
   width: 100%;
   max-width: 830px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   padding: 0 16px;
 }
 
