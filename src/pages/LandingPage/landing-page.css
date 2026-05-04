@@ -75,12 +75,12 @@
 .projects {
   margin-top: 120px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  gap: 30px;
-  max-width: 850px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 830px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 20px;
+  padding: 0 16px;
 }
 
 .landing-about{
@@ -156,7 +156,6 @@
 
   .projects {
     grid-template-columns: 1fr;
-    gap: 20px;
   }
 
 .landing-about{
