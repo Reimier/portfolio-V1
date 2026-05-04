@@ -1,8 +1,9 @@
 
 body{
 
-  background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
-  min-height: 100vh; 
+  /* background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
+  min-height: 100vh;  */
+
   overflow-x: hidden;
   color: #1E1E1E;
   font-family: 'inter';
@@ -25,7 +26,7 @@ button{
   font-family: 'inter';
   font-weight: bold;
   border: thin;
-  border-style: none;
+  border-style: solid;
 
 }
 
