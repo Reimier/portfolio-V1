@@ -6,6 +6,16 @@ body{
   overflow-x: hidden;
   color: #1E1E1E;
   font-family: 'inter';
+
+  margin: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+* {
+  outline: 1px solid red;
 }
 
 button{
