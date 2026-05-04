@@ -11,7 +11,8 @@ nav {
   right: 0;
   margin: 0 auto;
 
-  width: calc(54% - 32px);
+  width: 100%;
+  max-width: 800px;
   z-index: 1000;
 
   background: rgba(255, 255, 255, 0.18);
