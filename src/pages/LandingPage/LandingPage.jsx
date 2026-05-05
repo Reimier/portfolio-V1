@@ -40,7 +40,7 @@ export default function LandingPage() {
         </div>
 
 
-        <div className="projects">
+        <div className="projects" id="projs">
 
           <ProjectCard
 
@@ -73,17 +73,19 @@ export default function LandingPage() {
 
           image = "shopexpressIMG1.png"
           title = "Fairfly Travel and Tours"
-          tools = "Fairfly travel and tours is a franchising system made using React and Firebase."
+          tools = "Fairfly travel and tours is a franchising portal system made using React and Firebase."
         
           />
 
         </div>
 
-        <div className="landing-about" data-aos="fade-up" >
+        <div className="landing-about" >
 
-          <p>I’m Reimier Reyes, a web developer and designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
+          <p data-aos="fade-up" >I’m Reimier Reyes, a web developer and designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
 
-          <a id="learn-more">Learn more about me.</a>
+          <a id="learn-more">
+          <p data-aos="fade-up" >Learn more about me.</p>
+          </a>
 
 
         </div>

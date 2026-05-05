@@ -18,11 +18,11 @@ export default function Navbar() {
     <>
       <nav>
         
-        <NavLink to="#" data-aos="fade-left">Reimier Reyes</NavLink>
+        <a href="#" data-aos="fade-left">Reimier Reyes</a>
 
         <div className="links" data-aos="fade-right">
           <NavLink to="#">About</NavLink>
-          <NavLink to="#">Projects</NavLink>
+          <a href="#projs">Projects</a>
         </div>
       </nav>
     </>

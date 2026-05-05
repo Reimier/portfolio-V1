@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router"
+import { BrowserRouter, HashRouter, Routes, Route, Navigate } from "react-router"
 import LandingPage from "./pages/LandingPage/LandingPage"
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
@@ -13,13 +13,18 @@ function App() {
   return (
     <>
 
-    <BrowserRouter>
+    <HashRouter>
     
       <Navbar></Navbar>
+
+      <Routes>
+
+      <Route path="/home" element={<LandingPage />} />
+      <Route path="/*" element={<Navigate to="/home" />} />
+
+      </Routes>
       
-      <LandingPage></LandingPage>
-      
-    </BrowserRouter>
+    </HashRouter>
 
     <Footer></Footer>
     

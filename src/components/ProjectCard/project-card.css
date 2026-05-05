@@ -4,6 +4,7 @@
     width: 100%;
     max-width: 320px;
     height: 350px;
+    font-family: 'inter';
     border: 1px solid rgba(255,255,255,0.2);
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
@@ -24,7 +25,7 @@
     margin-left: 30px;
     margin-bottom: 0px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
 
 
 }
@@ -75,7 +76,7 @@
 
     width: 100%;
     max-width: 400px;
-    height: 300px;
+    height: 310px;
     border: 1px solid rgba(255,255,255,0.2);
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
@@ -94,8 +95,6 @@
     margin-left: 12px;
     margin-bottom: 0px;
     font-size: 16px;
-    font-weight: bold;
-
 
 }
 
@@ -104,7 +103,7 @@
     color: rgb(80, 80, 80);
     margin-left: 12px;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 12px;
 }
 
