@@ -83,7 +83,7 @@ export default function LandingPage() {
 
           <p data-aos="fade-up" >I’m Reimier Reyes, a web developer and designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
 
-          <a id="learn-more">
+          <a id="learn-more" href="#about">
           <p data-aos="fade-up" >Learn more about me.</p>
           </a>
 

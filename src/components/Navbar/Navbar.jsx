@@ -21,7 +21,7 @@ export default function Navbar() {
         <a href="#" data-aos="fade-left">Reimier Reyes</a>
 
         <div className="links" data-aos="fade-right">
-          <NavLink to="#">About</NavLink>
+          <a href="#about">About</a>
           <a href="#projs">Projects</a>
         </div>
       </nav>

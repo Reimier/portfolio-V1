@@ -1,0 +1,107 @@
+.about{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.about-intro, .about-exp, .about-educ{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   /* left align content */
+  text-align: left;
+}
+
+#about-desc{
+  font-family: 'Inter';
+  font-size: 20px;
+  max-width: 100%;
+  margin: 0;
+  margin-top: 30px;
+  line-height: 1.4
+}
+
+.about-desc img{
+
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-radius: 35px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;   
+  text-align: left;
+
+}
+
+.about-titles{
+
+  font-family: 'Inter';
+  font-size: 48px;
+  max-width: 100%;
+  margin: 0;
+  margin-top: 80px;
+  font-weight: 400;
+
+}
+
+.exp-sub{
+
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    line-height: 1.4
+  
+}
+
+.exp-desc{
+
+    font-family: 'Inter';
+    font-size: 20px;
+    max-width: 100%;
+    margin-top: 10px;
+    line-height: 1.4
+
+}
+
+.educ-sub{
+
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    line-height: 1.4
+  
+}
+
+.educ-desc{
+
+    font-family: 'Inter';
+    font-size: 20px;
+    max-width: 100%;
+    margin: 0;
+    line-height: 1.4
+}
+
+#educ-desc{
+
+    margin-top: 10px;
+}
+
+.about-educ{
+
+    margin-bottom: 120px;
+}
