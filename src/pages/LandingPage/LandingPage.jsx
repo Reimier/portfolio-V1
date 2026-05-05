@@ -60,7 +60,7 @@ export default function LandingPage() {
 
           image = "pokemonIMG1.png"
           title = "Guess the Pokémon"
-          tools = "Guess the Pokémon is a web-based game made using the React and PokéAPI REST API."
+          tools = "Guess the Pokémon is a web-based game made using React and PokéAPI REST API."
           site = "https://reimier.github.io/pokemon-game/#/easy"
         
           />
@@ -86,7 +86,7 @@ export default function LandingPage() {
 
         <div className="landing-about" >
 
-          <p data-aos="fade-up" >I’m Reimier Reyes, a web developer and designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
+          <p data-aos="fade-up" >I’m Reimier Reyes, a web developer and designer based in the Philippines. I specialize in creating modern and user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
 
           <a id="learn-more" href="#about">
           <p data-aos="fade-up" >Learn more about me.</p>

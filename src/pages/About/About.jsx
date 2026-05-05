@@ -71,22 +71,6 @@ export default function About(){
 
             </div>
 
-            <div className="about-cert">
-
-                <img data-aos="fade-up" src="salesforce-cert.svg">
-                </img>
-
-                <img data-aos="fade-up" src="tesda-ms.svg">
-                </img>
-
-                <img data-aos="fade-up" src="tesda-css.svg">
-                </img>
-
-                <img data-aos="fade-up" src="tesda-smart.svg">
-                </img>
-
-            </div>
-
             
         </div>
         

@@ -72,6 +72,9 @@
 
 
 @media screen and (max-width: 767px) {
+  .footer-container {
+  border-radius: 50px 50px 0 0;
+}
   .footer-content {
     flex-direction: column;
     text-align: left;
