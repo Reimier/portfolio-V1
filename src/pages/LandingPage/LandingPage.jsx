@@ -30,12 +30,17 @@ export default function LandingPage() {
 
         <div className="cta" data-aos="fade-up" >
 
+          <a href="https://drive.google.com/file/d/1cq0MdXr3m4K2iiLEo9welGJled5pKADn/view?usp=sharing" target="_blank" rel="noreferrer">
           <button id="cv">
             Download CV
           </button>
+          </a>
+
+          <a href="#" >
           <button id="contact">
             Let's Talk
           </button>
+          </a>
 
         </div>
 
