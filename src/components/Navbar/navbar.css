@@ -6,7 +6,7 @@ nav {
   font-family: 'Inter';
 
   position: fixed;
-  top: 24px;
+  top: 12px;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -28,7 +28,7 @@ nav {
 
 .links {
   display: flex;
-  gap: 22px;
+  gap: 18px;
 }
 
 nav a {
@@ -43,6 +43,21 @@ nav a:hover {
   opacity: 0.8;
   text-decoration: underline;
   transition: .3s;
+}
+
+.navbar-img{
+
+  width: 100%;
+  max-width: 30px;
+  border-radius: 999px;
+
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1024px) {
@@ -66,7 +81,7 @@ nav a:hover {
 
 .links {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 nav a {

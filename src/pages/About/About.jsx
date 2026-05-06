@@ -55,7 +55,7 @@ export default function About(){
 
                 <p className="about-titles" data-aos="fade-up" >Education</p>
 
-                <p className="educ-sub" data-aos="fade-up" >Bulacan State University - Main Campus | 2027</p>
+                <p className="educ-sub" data-aos="fade-up" >Bulacan State University - Malolos Campus | 2027</p>
 
                 <p className="educ-desc"  data-aos="fade-up">Bachelor of Science in Information Technology (BSIT). Specializes in Web and Mobile App Development.</p>
                 

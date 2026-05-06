@@ -111,6 +111,12 @@
 
 @media screen and (max-width: 767px) {
 
+  .about-titles{
+
+  font-size: 42px;
+
+}
+
 .about-img img{
 
   width: 100%;

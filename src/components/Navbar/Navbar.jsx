@@ -17,8 +17,11 @@ export default function Navbar() {
   return (
     <>
       <nav>
-        
-        <a href="#" data-aos="fade-left">Reimier Reyes</a>
+
+        <div className="brand" data-aos="fade-left">
+          <img className="navbar-img" src="favicon1.svg" alt="logo" />
+          <a href="#">Reimier Reyes</a>
+        </div>
 
         <div className="links" data-aos="fade-right">
           <a href="#about">About</a>

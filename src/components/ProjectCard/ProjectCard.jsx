@@ -42,12 +42,12 @@ export default function ProjectCard({image, title, tools, site, more}){
 
         <div className="btn">
 
-        <a href={more} target="_blank">
+        <a href={more} target="_blank" rel="noopener noreferrer">
 
         <button id="more">Learn more</button>
 
         </a>
-        <a href={site} target="_blank">
+        <a href={site} target="_blank" rel="noopener noreferrer">
 
         <button id="visit">Visit site</button>
 

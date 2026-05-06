@@ -78,7 +78,7 @@ export default function LandingPage() {
 
           image = "shopexpressIMG1.png"
           title = "Fairfly Travel and Tours"
-          tools = "Fairfly travel and tours is a franchising portal system made using React and Firebase."
+          tools = "Fairfly travel and tours is a franchising portal-like system made using React and Firebase."
         
           />
 
