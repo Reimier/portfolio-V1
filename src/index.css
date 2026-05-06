@@ -23,6 +23,11 @@ html{
    /* outline: 1px solid red; */
 }
 
+::selection {
+  background-color: #000000; /* Background of highlight */
+  color: #ffffff;            /* Color of the text itself */
+}
+
 button{
 
   padding-left: 30px;

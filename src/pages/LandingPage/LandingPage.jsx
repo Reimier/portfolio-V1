@@ -24,7 +24,7 @@ export default function LandingPage() {
         <div className="intro" data-aos="fade-up" >
         
           <p id="header">Creative website developer and interface designer.</p>
-          <p id="desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative, user-centered digital experiences.</p>
+          <p id="desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
 
         </div>
 

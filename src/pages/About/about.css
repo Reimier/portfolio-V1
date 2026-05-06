@@ -5,7 +5,7 @@
     margin-top: 0px;
 }
 
-.about-intro, .about-exp, .about-educ{
+.about-intro, .about-exp, .about-educ, .about-cert{
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
@@ -31,14 +31,9 @@
   width: 100%;
   max-width: 660px;
   height: auto;
-  margin: 0 auto;
-  margin-top: 80px;
+  margin: 80px auto 0;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;   
-  text-align: left;
-
+  display: block;
 }
 
 .about-titles{
@@ -91,18 +86,27 @@
     font-family: 'Inter';
     font-size: 20px;
     max-width: 100%;
-    margin: 0;
+    margin-top: 10px;
     line-height: 1.4
 }
 
-#educ-desc{
 
-    margin-top: 10px;
+.cert-link{
+
+  font-size: 20px;
+  margin-top: 30px;
+  text-decoration: underline;
+  color: #1E1E1E;
+  transition: .3s;
+  margin-bottom: 120px;
+
 }
 
-.about-educ{
+.cert-link:hover {
 
-    margin-bottom: 120px;
+  transition: .3s;
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {

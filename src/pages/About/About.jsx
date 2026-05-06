@@ -11,6 +11,7 @@ export default function About(){
           duration: 800, 
           once: true,
           easing: 'ease-in-out',
+          offset: 100,
         });
       }, []);
 
@@ -22,7 +23,7 @@ export default function About(){
             <div className="about-intro" data-aos="fade-up">
             
             <p id="header">Website developer turning ideas into beautiful UI.</p>
-            <p id="about-desc"> I’m Reimier Reyes, a 21 years old Web Developer and Designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
+            <p id="about-desc"> I’m Reimier Reyes, a 21-year-old Web Developer and Designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
 
             </div>
 
@@ -56,17 +57,25 @@ export default function About(){
 
                 <p className="educ-sub" data-aos="fade-up" >Bulacan State University - Main Campus | 2027</p>
 
-                <p className="educ-desc" id="educ-desc" data-aos="fade-up">Bachelor of Science in Information Technology.</p>
-                <p className="educ-desc" data-aos="fade-up" >Specializes in Web and Mobile App Development.</p>
+                <p className="educ-desc"  data-aos="fade-up">Bachelor of Science in Information Technology (BSIT). Specializes in Web and Mobile App Development.</p>
+                
 
                 <p className="educ-sub" data-aos="fade-up">FreeCodeCamp | 2026</p>
 
-                <p className="educ-desc" id="educ-desc" data-aos="fade-up">Front-End Development Libraries Certification.</p>
+                <p className="educ-desc"  data-aos="fade-up">Front-End Development Libraries Certification.</p>
 
                 <p className="educ-sub" data-aos="fade-up">Technical Education and Skills Development Authority | 2025</p>
 
-                <p className="educ-desc" id="educ-desc" data-aos="fade-up">TESDA Online Program (TOP).</p>
-                <p className="educ-desc" data-aos="fade-up">Certificate of Completion on Microsoft Digital Literacy, Computer System Servicing, and SMART Technopreneurship 101.</p>
+                <p className="educ-desc"  data-aos="fade-up">TESDA Online Program (TOP). Certificate of Completion on Microsoft Digital Literacy, Computer System Servicing, and SMART Technopreneurship 101.</p>
+
+
+            </div>
+
+            <div className="about-cert">
+
+                <a className="cert-link" href="https://drive.google.com/drive/folders/11N6U03qG1wlc3Or73msltMCmMV7vEpyG?usp=sharing" target="_blank" rel="noreferrer">
+                <p data-aos="fade-up" >Check my certificates.</p>
+                </a>
 
 
             </div>
