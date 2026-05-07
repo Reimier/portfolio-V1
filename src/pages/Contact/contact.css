@@ -99,7 +99,7 @@ textarea {
 
 
 
-@media (max-width: 468px) {
+@media screen and (max-width: 767px) {
 
     .contact-page {
     max-width: 360px;

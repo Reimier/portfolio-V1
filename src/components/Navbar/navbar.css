@@ -112,8 +112,7 @@ nav a:hover {
     width: 200px;
     padding: 20px;
 
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
+    background: rgb(255, 255, 255);
 
     border: 1px solid rgba(130, 130, 130, 0.35);
     border-radius: 20px;
