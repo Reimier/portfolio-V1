@@ -1,12 +1,13 @@
 
 body{
 
-  background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
-  min-height: 100vh;
+  /* background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
+  min-height: 100vh; */
+
 
   overflow-x: hidden;
   color: #1a1a1a;
-  font-family: 'inter';
+    font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
   width: 100%;

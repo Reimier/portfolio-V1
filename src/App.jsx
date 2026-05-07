@@ -4,6 +4,7 @@ import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
 import About from "./pages/About/About";
 import ScrollToTop from "./ScrollToTop";
+import Contact from "./pages/Contact/Contact";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
 
       <Route path="/home" element={<LandingPage />} />
       <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/*" element={<Navigate to="/home" />} />
 
       </Routes>

@@ -23,7 +23,7 @@ export default function LandingPage() {
 
         <div className="intro" data-aos="fade-up" >
         
-          <p id="header">Creative website developer and interface designer.</p>
+          <p id="header">Creative website developer and UI/UX designer.</p>
           <p id="desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
 
         </div>
@@ -36,7 +36,7 @@ export default function LandingPage() {
           </button>
           </a>
 
-          <a href="#" >
+          <a href="#contact" >
           <button id="contact">
             Let's Talk
           </button>
@@ -52,6 +52,7 @@ export default function LandingPage() {
           image = "shopexpressIMG1.png"
           title = "Shop Express"
           tools = "Shop Express is an e-commerce mockup made using React, REST API, and Firebase."
+          more = "https://github.com/Reimier/shop-express"
           site = "https://reimier.github.io/shop-express/#/home"
         
           />
@@ -61,6 +62,7 @@ export default function LandingPage() {
           image = "pokemonIMG1.png"
           title = "Guess the Pokémon"
           tools = "Guess the Pokémon is a web-based game made using React and PokéAPI REST API."
+          more = "https://github.com/Reimier/pokemon-game"
           site = "https://reimier.github.io/pokemon-game/#/easy"
         
           />
@@ -70,6 +72,7 @@ export default function LandingPage() {
           image = "currencyIMG1.png"
           title = "Currency Exchange Hub"
           tools = "Currency Exchange Hub is a currency exchanger made using React and ExchangeRate-API."
+          more = "https://github.com/Reimier/currency-exchange"
           site = "https://reimier.github.io/currency-exchange/#/"
         
           />

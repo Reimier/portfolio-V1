@@ -22,7 +22,7 @@ export default function About(){
             
             <div className="about-intro" data-aos="fade-up">
             
-            <p id="header">Website developer turning ideas into beautiful UI.</p>
+            <p id="header">Web developer, turning ideas into beautiful UI.</p>
             <p id="about-desc"> I’m Reimier Reyes, a 21-year-old Web Developer and Designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
 
             </div>
@@ -42,7 +42,7 @@ export default function About(){
 
                 <p className="exp-desc" data-aos="fade-up">Successfully completed and collected numerous Superbadges in Salesforce Trailhead, demonstrating proficiency in key platform functionalities.</p>
 
-                <p className="exp-sub" data-aos="fade-up">Calumpit MTO – Work Immersion Intern | 2023</p>
+                <p className="exp-sub" data-aos="fade-up">Calumpit MTO – Work Immersion Internship | 2023</p>
 
                 <p className="exp-desc" data-aos="fade-up">Completed an 80-hour work immersion, enhancing knowledge of the local municipal treasury industry workflow and financial documentation processes.</p>
 
@@ -74,7 +74,7 @@ export default function About(){
             <div className="about-cert">
 
                 <a className="cert-link" href="https://drive.google.com/drive/folders/11N6U03qG1wlc3Or73msltMCmMV7vEpyG?usp=sharing" target="_blank" rel="noreferrer">
-                <p data-aos="fade-up" >Check my certificates.</p>
+                <p data-aos="fade-up" >Check out my certificates.</p>
                 </a>
 
 

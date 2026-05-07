@@ -3,7 +3,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 16px;
-  font-family: 'Inter';
+  font-family: "Inter";
 
   position: fixed;
   top: 12px;
@@ -26,6 +26,19 @@ nav {
     inset 0 1px 0 rgba(255, 255, 255, 0.45);
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.navbar-img {
+  width: 100%;
+  max-width: 30px;
+  border-radius: 999px;
+}
+
 .links {
   display: flex;
   gap: 18px;
@@ -42,52 +55,79 @@ nav a {
 nav a:hover {
   opacity: 0.8;
   text-decoration: underline;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.navbar-img{
-
-  width: 100%;
-  max-width: 30px;
-  border-radius: 999px;
-
-}
-
-.brand {
-  display: flex;
-  align-items: center;
+.hamburger {
+  display: none;
+  flex-direction: column;
   gap: 5px;
   cursor: pointer;
 }
 
-@media screen and (max-width: 1024px) {
-
-    nav {
-
-  width: calc(100% - 40px);
-
+.hamburger span {
+  width: 24px;
+  height: 3px;
+  background: black;
+  border-radius: 999px;
+  transition: 0.3s ease;
 }
 
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(11px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-11px);
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    width: calc(100% - 40px);
+  }
 }
 
 @media screen and (max-width: 767px) {
-
   nav {
+    width: calc(100% - 32px);
+    max-width: 700px;
+  }
 
-  width: calc(100% - 32px);
-  max-width: 700px;
+  .hamburger {
+    display: flex;
+  }
 
-}
+  .links {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 
-.links {
-  display: flex;
-  gap: 8px;
-}
+    width: 200px;
+    padding: 20px;
 
-nav a {
-  font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
 
-}
+    border: 1px solid rgba(130, 130, 130, 0.35);
+    border-radius: 20px;
 
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
 
+    transition: all 0.3s ease;
+  }
+
+  .links.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
 }
