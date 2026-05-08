@@ -62,7 +62,7 @@ export default function About(){
 
                 <p className="educ-sub" data-aos="fade-up">FreeCodeCamp | 2026</p>
 
-                <p className="educ-desc"  data-aos="fade-up">Front-End Development Libraries Certification.</p>
+                <p className="educ-desc"  data-aos="fade-up">Responsive Web Design Certification & Front-End Development Libraries Certification (In progress).</p>
 
                 <p className="educ-sub" data-aos="fade-up">Technical Education and Skills Development Authority | 2025</p>
 
