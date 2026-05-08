@@ -23,11 +23,11 @@ export default function Navbar() {
         </div>
 
         <div className={`links ${menuOpen ? "active" : ""}`} data-aos="fade-right">
-          <a href="#about" onClick={() => setMenuOpen(false)}>
-            About
-          </a>
           <a href="#projs" onClick={() => setMenuOpen(false)}>
             Projects
+          </a>
+          <a href="#about" onClick={() => setMenuOpen(false)}>
+            About
           </a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>
             Contact

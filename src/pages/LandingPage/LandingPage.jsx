@@ -49,47 +49,61 @@ export default function LandingPage() {
 
           <ProjectCard
 
-          image = "shopexpressIMG1.png"
-          title = "Shop Express"
-          tools = "Shop Express is an e-commerce mockup made using React, REST API, and Firebase."
-          more = "https://github.com/Reimier/shop-express"
-          site = "https://reimier.github.io/shop-express/#/home"
-        
-          />
+          images={[
+            "pokemon1.png",
+            "pokemon2.png",
+            "pokemon3.png",
+          ]}
 
-          <ProjectCard
-
-          image = "pokemonIMG1.png"
-          title = "Guess the Pokémon"
-          tools = "Guess the Pokémon is a web-based game made using React and PokéAPI REST API."
-          more = "https://github.com/Reimier/pokemon-game"
+          title= "Guess the Pokémon (2025)"
+          desc = "An interactive web-app designed to test a user’s knowledge of Pokémon through silhouette and feature recognition. Users will have difficulty options and the UI is made appealing to users by using react components from the UIverse website."
           site = "https://reimier.github.io/pokemon-game/#/easy"
         
           />
 
           <ProjectCard
 
-          image = "currencyIMG1.png"
-          title = "Currency Exchange Hub"
-          tools = "Currency Exchange Hub is a currency exchanger made using React and ExchangeRate-API."
-          more = "https://github.com/Reimier/currency-exchange"
+            images={[
+            "shop1.png",
+            "shop2.png",
+            "shop3.png",
+          ]}
+
+          title= "Shop Express (2026)"
+          desc = "Shop express is an e-commerce mockup and is a personal project that I made using the Dummy JSON and Firebase. The Shop express is a project that I made to display my technical skills about API, Auth and Realtime database using Firebase."
+          site = "https://reimier.github.io/shop-express/#/home"
+        
+          />
+
+          <ProjectCard
+
+          images={[
+            "currency1.png",
+            "currency2.png",
+            "currency3.png",
+          ]}
+          title= "Currency Hub (2025)"
+          desc = "A small project to give users quick and precise currency changes.  The web-app incorporates an open-source REST API to obtain latest currency rates and instantly calculate conversion results as the user enters an amount."
           site = "https://reimier.github.io/currency-exchange/#/"
         
           />
 
           <ProjectCard
 
-          image = "shopexpressIMG1.png"
-          title = "Fairfly Travel and Tours"
-          tools = "Fairfly travel and tours is a franchising portal-like system made using React and Firebase."
+            images={[
+            "shop1.png",
+            "shop2.png",
+            "shop3.png",
+          ]}
+          title= "Fairfly Travel and Tours (2026)"
+          desc = "A franchising portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our group made for Fairfly travel agency to enhance the business scalability using realtime database of Firebase."
+          site = "https://reimier.github.io/shop-express/#/home"
         
           />
 
         </div>
 
         <div className="landing-about" >
-
-          <p data-aos="fade-up" >I’m Reimier Reyes, a web developer and designer based in the Philippines. I specialize in creating modern and user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
 
           <a id="learn-more" href="#about">
           <p data-aos="fade-up" >Learn more about me.</p>

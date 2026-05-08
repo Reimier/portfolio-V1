@@ -1,63 +1,56 @@
 import "./project-card.css";
-import AOS from "aos"; // Added AOS import
-import "aos/dist/aos.css"; // Added AOS styles
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
 
-export default function ProjectCard({image, title, tools, site, more}){
-
-        useEffect(() => {
-          AOS.init({
-            duration: 800, 
-            once: true,
-            easing: 'ease-in-out',
-          });
-        }, []);
-
-    return(
-    <>
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 
+export default function ProjectCard({ images, title, desc, site }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+      easing: "ease-in-out",
+    });
+  }, []);
+
+  
+
+  return (
     <div className="card" data-aos="fade-up">
 
-        <div className="image">
+      <div className="image-slider">
+        <Swiper
+          modules={[Navigation, Pagination]}
+          navigation
+          pagination={{ clickable: true }}
+          spaceBetween={20}
+          slidesPerView={1}
+        >
+          {images.map((img, index) => (
+            <SwiperSlide key={index}>
+              <img src={img} alt={`Project ${index}`} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
 
-            <img src={image}>
-            
-            </img>
-
-        </div>
-
-        <div className="title">
-
+      <div className="title">
+        <a href={site} target="_blank" rel="noreferrer">
             <p>{title}</p>
-
-
-        </div>
-
-        <div className="tools">
-
-            <p>{tools}</p>
-
-        </div>
-
-        <div className="btn">
-
-        <a href={more} target="_blank" rel="noopener noreferrer">
-
-        <button id="more">Learn more</button>
-
         </a>
-        <a href={site} target="_blank" rel="noopener noreferrer">
+      </div>
 
-        <button id="visit">Visit site</button>
-
-        </a>
-
-        </div>
+      <div className="card-desc">
+        <p>{desc}</p>
+      </div>
 
 
     </div>
-    
-    </>
-    )
+  );
 }
