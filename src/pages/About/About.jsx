@@ -4,6 +4,13 @@ import { useEffect } from "react";
 import AOS from "aos"; 
 import "aos/dist/aos.css"; 
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
 export default function About(){
 
       useEffect(() => {
@@ -29,8 +36,37 @@ export default function About(){
 
             <div className="about-img" data-aos="fade-up">
 
-                <img src="reimier-about-img.png">
-                </img>
+            <Swiper
+                modules={[Navigation, Pagination]}
+                navigation
+                pagination={{ clickable: true }}
+                spaceBetween={20}
+                slidesPerView={1}
+            >
+
+                <SwiperSlide>
+                <img src="reimier-about-img1.png" alt="About 1" />
+                </SwiperSlide>
+                
+                <SwiperSlide>
+                <img src="reimier-about-img2.png" alt="About 1" />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <img src="reimier-about-img3.png" alt="About 1" />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <img src="reimier-about-img4.png" alt="About 1" />
+                </SwiperSlide>
+
+                <SwiperSlide>
+                <img src="reimier-about-img5.png" alt="About 1" />
+                </SwiperSlide>
+
+
+
+            </Swiper>
 
             </div>
 

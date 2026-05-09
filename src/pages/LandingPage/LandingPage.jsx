@@ -31,17 +31,19 @@ export default function LandingPage() {
 
         <div className="cta" data-aos="fade-up" >
 
-          <a href="#contact" >
-          <button id="contact">
-            Let's Talk
-          </button>
-          </a>
+          <div className="cta-btns">
+            <a href="#contact" >
+            <button id="contact">
+              Let's Talk
+            </button>
+            </a>
 
-          <a href="https://drive.google.com/file/d/1cq0MdXr3m4K2iiLEo9welGJled5pKADn/view?usp=sharing" target="_blank" rel="noreferrer">
-          <button id="cv">
-            Download CV
-          </button>
-          </a>
+            <a href="https://drive.google.com/file/d/1cq0MdXr3m4K2iiLEo9welGJled5pKADn/view?usp=sharing" target="_blank" rel="noreferrer">
+            <button id="cv">
+              Download CV
+            </button>
+            </a>
+          </div>
 
             <div className="landing-socials-icon">
             <a href="https://github.com/reimier" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-github"></i> </a>
