@@ -18,7 +18,7 @@ export default function Navbar() {
     <>
       <nav>
         <div className="brand" data-aos="fade-left">
-          <img className="navbar-img" src="favicon1.svg" alt="logo" />
+          <img className="navbar-img" src="favicon1.png" alt="logo" />
           <a href="#">Reimier Reyes</a>
         </div>
 

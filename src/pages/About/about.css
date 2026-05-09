@@ -18,7 +18,7 @@
 }
 
 #about-desc{
-  font-family: 'Inter';
+  color: #323232;
   font-size: 20px;
   max-width: 100%;
   margin: 0;
@@ -38,18 +38,16 @@
 
 .about-titles{
 
-  font-family: 'Inter';
-  font-size: 48px;
+  font-size: 32px;
   max-width: 100%;
   margin: 0;
   margin-top: 80px;
-  font-weight: 400;
+  font-weight: 700;
 
 }
 
 .exp-sub{
 
-    font-family: 'Inter';
     font-weight: 600;
     font-size: 20px;
     max-width: 100%;
@@ -61,7 +59,7 @@
 
 .exp-desc{
 
-    font-family: 'Inter';
+      color: #323232;
     font-size: 20px;
     max-width: 100%;
     margin-top: 10px;
@@ -71,7 +69,6 @@
 
 .educ-sub{
 
-    font-family: 'Inter';
     font-weight: 600;
     font-size: 20px;
     max-width: 100%;
@@ -83,7 +80,7 @@
 
 .educ-desc{
 
-    font-family: 'Inter';
+    color: #323232;
     font-size: 20px;
     max-width: 100%;
     margin-top: 10px;
@@ -113,7 +110,7 @@
 
   .about-titles{
 
-  font-size: 42px;
+  font-size: 28px;
 
 }
 

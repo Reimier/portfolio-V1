@@ -2,7 +2,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px;
+  padding: 10px;
   font-family: "Inter";
 
   position: fixed;
@@ -21,9 +21,6 @@ nav {
   border: 1px solid rgba(130, 130, 130, 0.35);
   border-radius: 999px;
 
-  box-shadow:
-    0 8px 30px rgba(0, 0, 0, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.45);
 }
 
 .brand {
@@ -35,13 +32,15 @@ nav {
 
 .navbar-img {
   width: 100%;
-  max-width: 30px;
+  max-width: 40px;
+  margin: 0;
   border-radius: 999px;
 }
 
 .links {
   display: flex;
-  gap: 18px;
+  gap: 16px;
+  padding-right: 5px;
 }
 
 nav a {
@@ -63,6 +62,7 @@ nav a:hover {
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
+  margin-right: 16px;
 }
 
 .hamburger span {

@@ -2,6 +2,7 @@ import "./project-card.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
 

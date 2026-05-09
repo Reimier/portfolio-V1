@@ -24,11 +24,18 @@ export default function LandingPage() {
         <div className="intro" data-aos="fade-up" >
         
           <p id="header">Creative website developer and UI/UX designer.</p>
-          <p id="desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
+          <p id="landing-desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
+          
 
         </div>
 
         <div className="cta" data-aos="fade-up" >
+
+          <a href="#contact" >
+          <button id="contact">
+            Let's Talk
+          </button>
+          </a>
 
           <a href="https://drive.google.com/file/d/1cq0MdXr3m4K2iiLEo9welGJled5pKADn/view?usp=sharing" target="_blank" rel="noreferrer">
           <button id="cv">
@@ -36,11 +43,12 @@ export default function LandingPage() {
           </button>
           </a>
 
-          <a href="#contact" >
-          <button id="contact">
-            Let's Talk
-          </button>
-          </a>
+            <div className="landing-socials-icon">
+            <a href="https://github.com/reimier" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-github"></i> </a>
+            <a href="https://www.instagram.com/ier_reyes/?hl=en" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.linkedin.com/in/reimier-reyes-380a67355/" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+
 
         </div>
 
@@ -88,7 +96,7 @@ export default function LandingPage() {
         
           />
 
-          <ProjectCard
+          {/* <ProjectCard
 
             images={[
             "shop1.png",
@@ -99,7 +107,7 @@ export default function LandingPage() {
           desc = "A franchising portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our group made for Fairfly travel agency to enhance the business scalability using realtime database of Firebase."
           site = "https://reimier.github.io/shop-express/#/home"
         
-          />
+          /> */}
 
         </div>
 
