@@ -41,7 +41,7 @@ button{
   padding-right: 30px;
   padding-bottom: 7px;
   padding-top: 7px;
-  border-radius: 9px;
+  border-radius: 8px;
   cursor: pointer;
   font-family: 'inter';
   font-weight: bold;
@@ -74,7 +74,7 @@ button{
   padding-bottom: 5px;
   padding-top: 5px;
   border-style: solid;
-  border-radius: 999px;
+  border-radius: 10px;
   cursor: pointer;
   font-family: 'inter';
   font-weight: bold;

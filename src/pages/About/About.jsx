@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -36,13 +37,18 @@ export default function About(){
 
             <div className="about-img" data-aos="fade-up">
 
-            <Swiper
-                modules={[Navigation, Pagination]}
+                <Swiper
+                modules={[Navigation, Pagination, Autoplay]}
                 navigation
                 pagination={{ clickable: true }}
                 spaceBetween={20}
                 slidesPerView={1}
-            >
+                autoplay={{
+                    delay: 3000,
+                    disableOnInteraction: false,
+                }}
+                loop={true}
+                >
 
                 <SwiperSlide>
                 <img src="reimier-about-img1.png" alt="About 1" />
@@ -63,8 +69,6 @@ export default function About(){
                 <SwiperSlide>
                 <img src="reimier-about-img5.png" alt="About 1" />
                 </SwiperSlide>
-
-
 
             </Swiper>
 

@@ -32,6 +32,7 @@ export default function ProjectCard({ images, title, desc, site }) {
           pagination={{ clickable: true }}
           spaceBetween={20}
           slidesPerView={1}
+          loop={true}
         >
           {images.map((img, index) => (
             <SwiperSlide key={index}>
