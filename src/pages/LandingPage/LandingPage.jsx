@@ -66,7 +66,7 @@ export default function LandingPage() {
           ]}
 
           title= "Guess the Pokémon (2025)"
-          desc = "An interactive web-app designed to test a user’s knowledge of Pokémon through silhouette and feature recognition. Users will have difficulty options and the UI is made appealing to users by using react components from the UIverse website."
+          desc = "An interactive quiz web app that tests Pokémon knowledge using silhouette and feature recognition. Features multiple difficulty levels, smooth animations, and a polished UI built with React components. Users guess from increasingly challenging clues in a fun, engaging format."
           site = "https://reimier.github.io/pokemon-game/#/easy"
         
           />
@@ -80,7 +80,7 @@ export default function LandingPage() {
           ]}
 
           title= "Shop Express (2026)"
-          desc = "Shop express is an e-commerce mockup and is a personal project that I made using the Dummy JSON and Firebase. The Shop express is a project that I made to display my technical skills about API, Auth and Realtime database using Firebase."
+          desc = "Shop express is an e-commerce mockup and is a personal project that I made using REST APIs and Firebase. The Shop express is a project that I made to display my technical skills about API, Auth and Realtime database using Firebase."
           site = "https://reimier.github.io/shop-express/#/home"
         
           />
@@ -93,7 +93,7 @@ export default function LandingPage() {
             "currency3.png",
           ]}
           title= "Currency Hub (2025)"
-          desc = "A small project to give users quick and precise currency changes.  The web-app incorporates an open-source REST API to obtain latest currency rates and instantly calculate conversion results as the user enters an amount."
+          desc = "A real-time currency converter that delivers instant exchange rate calculations. Users can input any amount and instantly see the conversions across multiple currencies using live data from a public REST API."
           site = "https://reimier.github.io/currency-exchange/#/"
         
           />

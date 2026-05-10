@@ -31,7 +31,8 @@ export default function About(){
             <div className="about-intro" data-aos="fade-up">
             
             <p id="header">Web developer, turning ideas into beautiful UI.</p>
-            <p id="about-desc"> I’m Reimier Reyes, a 21-year-old Web Developer and Designer based in the Philippines. I specialize in creating modern, user-friendly web applications that blend clean design with purposeful functionality. I love building digital experiences that are both visually striking and intuitive to use.</p>
+            <p className="about-desc"> I'm Reimier Reyes, a 21-year-old website developer and UI/UX designer based in the province of Bulacan, Philippines.</p>
+            <p className="about-desc"> I specialize in building modern, responsive web applications that combine clean, elegant design with smooth functionality. From interactive web apps to e-commerce experiences, I focus on creating user-centered digital products that are both visually appealing and highly intuitive. </p>
 
             </div>
 
@@ -76,7 +77,7 @@ export default function About(){
 
             <div className="about-exp">
 
-                <p className="about-titles" data-aos="fade-up">Professional Experience</p>
+                <p className="about-titles" data-aos="fade-up">Experience <i class="fa-solid fa-briefcase"></i> </p>
 
                 <p className="exp-sub" data-aos="fade-up">Salesforce – Virtual Internship | 2025</p>
 
@@ -93,7 +94,7 @@ export default function About(){
 
             <div className="about-educ">
 
-                <p className="about-titles" data-aos="fade-up" >Education</p>
+                <p className="about-titles" data-aos="fade-up" >Education <i class="fa-solid fa-graduation-cap"></i> </p>
 
                 <p className="educ-sub" data-aos="fade-up" >Bulacan State University - Malolos Campus | 2027</p>
 
