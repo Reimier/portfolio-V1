@@ -44,7 +44,7 @@ export default function Contact(){
 
         <div className="contact-intro" data-aos="fade-up" >
 
-            <p id="header">Want to work together? feel free to say hello!</p>
+            <p id="header">WANT TO WORK TOGETHER? FEEL FREE TO SAY HELLO.</p>
             <p id="contact-desc">Send me a message so that we can work together on a 
                                   project or just say hi to me! Hit me up and I’ll get back to
                                   you as soon as possible.</p>

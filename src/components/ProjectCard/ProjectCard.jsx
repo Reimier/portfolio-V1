@@ -44,7 +44,7 @@ export default function ProjectCard({ images, title, desc, site }) {
 
       <div className="title">
         <a href={site} target="_blank" rel="noreferrer">
-            <p>{title}</p>
+            <p>{title} <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
         </a>
       </div>
 

@@ -23,7 +23,7 @@ export default function LandingPage() {
 
         <div className="intro" data-aos="fade-up" >
         
-          <p id="header">Creative website developer and UI/UX designer.</p>
+          <p id="header">CREATIVE WEB DEVELOPER AND UI/UX DESIGNER.</p>
           <p id="landing-desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
           
 
@@ -65,7 +65,7 @@ export default function LandingPage() {
             "pokemon3.png",
           ]}
 
-          title= "Guess the Pokémon (2025)"
+          title= "Guess the Pokémon (2025)" 
           desc = "An interactive quiz web app that tests Pokémon knowledge using silhouette and feature recognition. Features multiple difficulty levels, smooth animations, and a polished UI built with React components. Users guess from increasingly challenging clues in a fun, engaging format."
           site = "https://reimier.github.io/pokemon-game/#/easy"
         
