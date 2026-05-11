@@ -49,6 +49,7 @@ export default function LandingPage() {
             <a href="https://github.com/reimier" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-github"></i> </a>
             <a href="https://www.instagram.com/ier_reyes/?hl=en" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-instagram"></i> </a>
             <a href="https://www.linkedin.com/in/reimier-reyes-380a67355/" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:reimierreyes0221@gmail.com" target="_blank" rel="noreferrer" className="icons"><i class="fa-regular fa-envelope"></i></a>
             </div>
 
 

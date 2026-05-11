@@ -3,27 +3,6 @@ body{
 
   /* background: linear-gradient(135deg, #dbeafe, #fbcfe8, #ffffff);
   min-height: 100vh; */
-width: 100%;
-  height: 100%;
-
-  background: #ffffff;
-  --gap: 6em;
-  --line: 1px;
-  --color: rgba(0, 0, 0, 0.3);
-
-  background-image: linear-gradient(
-      -90deg,
-      transparent calc(var(--gap) - var(--line)),
-      var(--color) calc(var(--gap) - var(--line) + 1px),
-      var(--color) var(--gap)
-    ),
-    linear-gradient(
-      0deg,
-      transparent calc(var(--gap) - var(--line)),
-      var(--color) calc(var(--gap) - var(--line) + 1px),
-      var(--color) var(--gap)
-    );
-  background-size: var(--gap) var(--gap);
 
   overflow-x: hidden;
   color: #000000;

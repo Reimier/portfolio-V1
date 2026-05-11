@@ -7,6 +7,8 @@ import { useEffect } from "react";
 import AOS from "aos"; 
 import "aos/dist/aos.css"; 
 
+import toast, { Toaster } from 'react-hot-toast';
+
 export default function Contact(){
 
       useEffect(() => {
@@ -19,26 +21,38 @@ export default function Contact(){
 
     const [status, setStatus] = useState("");
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+const sendEmail = (e) => {
+  e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_248vvxb",
-        "template_m1hfcl6",
-        e.target,
-        "Y2oktYdMFhwEhWryt"
-      )
-      .then(
-        () => setStatus(alert("Message sent. Thank you for reaching out!")),
-        e.target.reset(),
-        () => setStatus(alert("There seems to be a problem! try again later."))
-      );
-  };
+  const loadingToast = toast.loading('Sending your message...');
 
+  emailjs
+    .sendForm(
+      "service_248vvxb",
+      "template_m1hfcl6",
+      e.target,
+      "Y2oktYdMFhwEhWryt"
+    )
+    .then(
+      () => {
+
+        toast.success("Message sent!", {
+          id: loadingToast,
+        });
+        e.target.reset();
+      },
+      (error) => {
+
+        toast.error("Something went wrong. Please try again.", {
+          id: loadingToast,
+        });
+      }
+    );
+};
 
     return(
         <>
+        <Toaster position="bottom-center" reverseOrder={false} />
 
         <div className="contact" >
 
@@ -59,6 +73,7 @@ export default function Contact(){
             <a href="https://github.com/reimier" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-github"></i> </a>
             <a href="https://www.instagram.com/ier_reyes/?hl=en" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-instagram"></i> </a>
             <a href="https://www.linkedin.com/in/reimier-reyes-380a67355/" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:reimierreyes0221@gmail.com" target="_blank" rel="noreferrer" className="icons"><i class="fa-regular fa-envelope"></i></a>
             </div>
 
             <label>Name</label>
