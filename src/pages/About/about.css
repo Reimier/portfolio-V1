@@ -5,7 +5,7 @@
     margin-top: 0px;
 }
 
-.about-intro, .about-exp, .about-educ, .about-cert{
+.about-intro, .about-tech, .about-exp, .about-educ, .about-cert{
   width: 100%;
   max-width: 790px;
   margin: 0 auto;
@@ -50,7 +50,7 @@
 
 }
 
-.exp-sub{
+.exp-sub, .educ-sub{
 
     font-weight: 600;
     font-size: 20px;
@@ -61,20 +61,10 @@
   
 }
 
-.exp-desc{
+.tech-sub{
 
-      color: #323232;
-    font-size: 20px;
-    max-width: 100%;
-    margin-top: 10px;
-    line-height: 1.4
-
-}
-
-.educ-sub{
-
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 35px;
     max-width: 100%;
     margin: 0;
     margin-top: 20px;
@@ -82,13 +72,26 @@
   
 }
 
-.educ-desc{
+.tech-sub i{
+
+  transition: 0.3s;
+  
+}
+
+.tech-sub i:hover{
+
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+
+.exp-desc, .educ-desc{
 
     color: #323232;
     font-size: 20px;
     max-width: 100%;
     margin-top: 10px;
     line-height: 1.4
+
 }
 
 
@@ -132,7 +135,7 @@
 
   .about-img {
   width: 100%;
-  max-width: 720px;
+  max-width: 760px;
   margin: 80px auto 0;
   padding: 0 16px;
 }

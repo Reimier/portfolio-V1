@@ -77,7 +77,7 @@ export default function About(){
 
             <div className="about-exp">
 
-                <p className="about-titles" data-aos="fade-up">EXPERIENCE <i class="fa-solid fa-briefcase"></i> </p>
+                <p className="about-titles" data-aos="fade-up">EXPERIENCE <i class="fa-brands fa-black-tie"></i></p>
 
                 <p className="exp-sub" data-aos="fade-up">Salesforce – Virtual Internship | 2025</p>
 
@@ -88,7 +88,6 @@ export default function About(){
                 <p className="exp-desc" data-aos="fade-up">Completed an 80-hour work immersion, enhancing knowledge of the local municipal treasury industry workflow and financial documentation processes.</p>
 
                 <p className="exp-desc" data-aos="fade-up">Streamlined organizational flow by arranging and archiving multiple paperwork, receipts, and related documents, resulting in an organized workplace.</p>
-
 
             </div>
 
@@ -109,6 +108,14 @@ export default function About(){
 
                 <p className="educ-desc"  data-aos="fade-up">TESDA Online Program (TOP). Certificate of Completion on Microsoft Digital Literacy, Computer System Servicing, and SMART Technopreneurship 101.</p>
 
+
+            </div>
+
+            <div className="about-tech">
+
+                <p className="about-titles" data-aos="fade-up">TECH STACK <i class="fa-solid fa-laptop-code"></i></p>
+
+                <p className="tech-sub" data-aos="fade-up"> <i class="fa-brands fa-react"></i> <i class="fa-brands fa-node"></i> <i class="fa-brands fa-npm"></i> <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-git-alt"></i> <i class="fa-brands fa-github"></i> <i class="fa-brands fa-figma"></i></p>
 
             </div>
 

@@ -124,7 +124,6 @@
   .image-slider img {
     height: 220px;
     object-fit: cover;
-    border-radius: 0;
   }
 
   .title {
