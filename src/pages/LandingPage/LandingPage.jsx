@@ -34,13 +34,13 @@ export default function LandingPage() {
           <div className="cta-btns">
             <a href="#contact" >
             <button id="contact">
-              Let's Talk
+             <i class="fa-regular fa-message"></i> Let's Talk
             </button>
             </a>
 
             <a href="https://drive.google.com/file/d/1cq0MdXr3m4K2iiLEo9welGJled5pKADn/view?usp=sharing" target="_blank" rel="noreferrer">
             <button id="cv">
-              Download CV
+             <i class="fa-solid fa-file-arrow-down"></i> Download CV
             </button>
             </a>
           </div>

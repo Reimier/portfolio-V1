@@ -15,7 +15,7 @@
 .contact-intro{
 
   width: 100%;
-  max-width: 780px;
+  max-width: 790px;
   margin: 0 auto;
   padding: 0 20px; 
   line-height: 1.1;
@@ -100,9 +100,14 @@ textarea {
     resize: none;
 }
 
+@media screen and (max-width: 768px) {
+
+    
+}
 
 
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 576px) {
 
     .contact-page {
         width: 100%;       

@@ -5,6 +5,7 @@ body{
   min-height: 100vh; */
 
   overflow-x: hidden;
+  background-color: white;
   color: #000000;
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -55,14 +56,13 @@ button:hover{
   transform: scaleY(1.2);
 
 }
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 
 
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
 
 
 button{

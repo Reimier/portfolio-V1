@@ -27,6 +27,7 @@ export default function Footer() {
               <li><a href="https://github.com/reimier" target="_blank" rel="noreferrer">GitHub</a></li>
               <li><a href="https://www.instagram.com/ier_reyes/?hl=en" target="_blank" rel="noreferrer">Instagram</a></li>
               <li><a href="https://www.linkedin.com/in/reimier-reyes-380a67355/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="mailto:reimierreyes0221@gmail.com" target="_blank" rel="noreferrer">Email</a></li>
             </ul>
           </div>
 

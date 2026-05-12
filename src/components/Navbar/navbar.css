@@ -85,13 +85,13 @@ nav a:hover {
   transform: rotate(-45deg) translateY(-11px);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   nav {
     width: calc(100% - 40px);
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
   nav {
     width: calc(100% - 32px);
     max-width: 700px;

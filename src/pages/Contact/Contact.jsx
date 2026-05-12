@@ -85,7 +85,7 @@ const sendEmail = (e) => {
             <label>Message</label>
             <textarea placeholder="Enter your message here" name="message" rows="6" required></textarea>
 
-            <button className="submit-btn">Send Message</button>
+            <button className="submit-btn"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
 
         </form>
 
