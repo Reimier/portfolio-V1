@@ -81,7 +81,7 @@ export default function LandingPage() {
           ]}
 
           title= "Shop Express (2026)"
-          desc = "A responsive e-commerce mockup showcasing a modern online store. Built with dummy API product data and Firebase for authentication and real-time features. Includes product browsing, user authentication, and a clean design."
+          desc = "An e-commerce mockup showcasing a modern online store. Built with dummy API product data and Firebase for authentication and real-time features. Includes product browsing, user authentication, and a clean design."
           site = "https://reimier.github.io/shop-express/#/home"
         
           />
