@@ -6,30 +6,11 @@ import About from "./pages/About/About";
 import ScrollToTop from "./ScrollToTop";
 import Contact from "./pages/Contact/Contact";
 
-import { useState, useEffect } from 'react';
-import Loader from './components/Loader/Loader';
-
-
 function App() {
   
   if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
 }
-
-const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulate loading (API call, heavy assets, etc.)
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) {
-    return <Loader />;
-  }
 
   return (
     <>
@@ -50,8 +31,6 @@ const [loading, setLoading] = useState(true);
       </Routes>
       
     </HashRouter>
-
-    <Footer></Footer>
     
       
     </>

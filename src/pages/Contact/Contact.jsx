@@ -8,6 +8,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; 
 
 import toast, { Toaster } from 'react-hot-toast';
+import Footer from "../../components/Footer/Footer";
 
 export default function Contact(){
 
@@ -91,7 +92,10 @@ const sendEmail = (e) => {
 
         {status && <p>{status}</p>}
         </div>
+
         </div>
+
+          <Footer></Footer>
 
 
         </>

@@ -11,6 +11,7 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import Footer from "../../components/Footer/Footer";
 
 export default function About(){
 
@@ -127,6 +128,8 @@ export default function About(){
 
 
             </div>
+
+            <Footer></Footer>
 
             
         </div>
