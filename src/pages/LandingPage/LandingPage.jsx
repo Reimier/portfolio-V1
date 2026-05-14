@@ -24,8 +24,7 @@ export default function LandingPage() {
         <div className="intro" data-aos="fade-up" >
         
           <p id="header">CREATIVE WEB DEVELOPER AND UI/UX DESIGNER.</p>
-          <p id="landing-desc" >I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
-          
+          <p id="landing-desc" > I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
 
         </div>
 
@@ -66,7 +65,7 @@ export default function LandingPage() {
             "pokemon3.png",
           ]}
 
-          title= "Guess the Pokémon (2025)" 
+          title= "Guess the Pokémon " 
           desc = "An interactive quiz web app that tests Pokémon knowledge using silhouette and feature recognition. Features multiple difficulty levels, smooth animations, and a polished UI built with React components. Users guess from increasingly challenging clues in a fun, engaging format."
           site = "https://reimier.github.io/pokemon-game/#/easy"
         
@@ -80,7 +79,7 @@ export default function LandingPage() {
             "shop3.png",
           ]}
 
-          title= "Shop Express (2026)"
+          title= "Shop Express "
           desc = "An e-commerce mockup showcasing a modern online store. Built with dummy API product data and Firebase for authentication and real-time features. Includes product browsing, user authentication, and a clean design."
           site = "https://reimier.github.io/shop-express/#/home"
         
@@ -93,7 +92,7 @@ export default function LandingPage() {
             "currency2.png",
             "currency3.png",
           ]}
-          title= "Currency Hub (2025)"
+          title= "Currency Hub "
           desc = "A real-time currency converter that delivers instant exchange rate calculations. Users can input any amount and instantly see the conversions across multiple currencies using live data from a public REST API."
           site = "https://reimier.github.io/currency-exchange/#/"
         
@@ -119,7 +118,6 @@ export default function LandingPage() {
           <a id="learn-more" href="#about">
           <p data-aos="fade-up" >Learn more about me.</p>
           </a>
-
 
         </div>
 
