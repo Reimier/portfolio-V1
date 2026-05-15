@@ -12,18 +12,9 @@ import "swiper/css/pagination";
 
 
 export default function ProjectCard({ images, title, desc, site }) {
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-      easing: "ease-in-out",
-    });
-  }, []);
-
   
-
   return (
-    <div className="card" data-aos="fade-up">
+    <div className="card" >
 
       <div className="image-slider">
         <Swiper

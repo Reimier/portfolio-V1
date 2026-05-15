@@ -116,7 +116,17 @@ export default function About(){
 
                 <p className="about-titles" data-aos="fade-up">TECH STACK <i class="fa-solid fa-code"></i></p>
 
-                <p className="tech-sub" data-aos="fade-up"> <i class="fa-brands fa-react"></i> <i class="fa-brands fa-node-js"></i> <i class="fa-brands fa-npm"></i> <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-js"></i> <i class="fa-brands fa-git-alt"></i> <i class="fa-brands fa-github"></i> <i class="fa-brands fa-figma"></i></p>
+                <p className="tech-sub" data-aos="fade-up">
+                    <i className="fa-brands fa-react"></i>
+                    <i className="fa-brands fa-node-js"></i>
+                    <i className="fa-brands fa-npm"></i>
+                    <i className="fa-brands fa-html5"></i>
+                    <i className="fa-brands fa-css3-alt"></i>
+                    <i className="fa-brands fa-js"></i>
+                    <i className="fa-brands fa-git-alt"></i>
+                    <i className="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-figma"></i>
+                </p>
 
             </div>
 

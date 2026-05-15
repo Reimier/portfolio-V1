@@ -56,9 +56,9 @@ export default function LandingPage() {
         </div>
 
 
-        <div className="projects" id="projs">
+        <div data-aos="fade-up" className="projects" id="projs">
 
-          <ProjectCard
+          <ProjectCard 
 
           images={[
             "pokemon1.png",
@@ -117,7 +117,7 @@ export default function LandingPage() {
         <div className="landing-about" >
 
           <a id="learn-more" href="#about">
-          <p data-aos="fade-up" >Learn more about me.</p>
+          <p >Learn more about me.</p>
           </a>
 
         </div>
