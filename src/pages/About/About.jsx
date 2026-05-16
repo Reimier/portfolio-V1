@@ -51,9 +51,9 @@ export default function About(){
                 }}
                 loop={true}
                 >
-                
+
                 <SwiperSlide>
-                <img src="reimier-about-img4.png" alt="About 1" />
+                <img src="reimier-about-img3.png" alt="About 1" />
                 </SwiperSlide>
 
                 <SwiperSlide>
@@ -61,7 +61,7 @@ export default function About(){
                 </SwiperSlide>
 
                 <SwiperSlide>
-                <img src="reimier-about-img3.png" alt="About 1" />
+                <img src="reimier-about-img4.png" alt="About 1" />
                 </SwiperSlide>
 
                 <SwiperSlide>
@@ -74,7 +74,7 @@ export default function About(){
 
                     <div className="about-exp">
 
-                <p className="about-titles">EXPERIENCE <i class="fa-brands fa-black-tie"></i></p>
+                <p className="about-titles">Experience <i class="fa-brands fa-black-tie"></i></p>
 
                 <p className="exp-sub">Salesforce – Virtual Internship | 2025</p>
 
@@ -88,13 +88,12 @@ export default function About(){
 
             <div className="about-educ">
 
-                <p className="about-titles"  >EDUCATION <i class="fa-solid fa-graduation-cap"></i> </p>
+                <p className="about-titles"  >Education <i class="fa-solid fa-graduation-cap"></i> </p>
 
                 <p className="educ-sub"  >Bulacan State University - Malolos Campus | 2027</p>
 
                 <p className="educ-desc"  >Bachelor of Science in Information Technology (BSIT). Specializes in Web and Mobile App Development.</p>
                 
-
                 <p className="educ-sub" >FreeCodeCamp | 2026</p>
 
                 <p className="educ-desc"  >Responsive Web Design Certification & Front-End Development Libraries Certification (In progress).</p>
@@ -108,7 +107,7 @@ export default function About(){
 
             <div className="about-tech">
 
-                <p className="about-titles" >TECH STACK <i class="fa-solid fa-code"></i></p>
+                <p className="about-titles" >Tech Stack <i class="fa-solid fa-code"></i></p>
 
                 <p className="tech-sub" >
                     <i className="fa-brands fa-react"></i>

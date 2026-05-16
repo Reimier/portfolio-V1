@@ -40,7 +40,7 @@ export default function LandingPage() {
 
             <a href="https://drive.google.com/file/d/1cq0MdXr3m4K2iiLEo9welGJled5pKADn/view?usp=sharing" target="_blank" rel="noreferrer">
             <button id="cv">
-             <i class="fa-solid fa-file-arrow-down"></i> View CV
+             <i class="fa-solid fa-file-lines"></i> View Full CV
             </button>
             </a>
           </div>
