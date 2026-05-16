@@ -51,21 +51,17 @@ export default function About(){
                 }}
                 loop={true}
                 >
-
-                <SwiperSlide>
-                <img src="reimier-about-img1.png" alt="About 1" />
-                </SwiperSlide>
                 
+                <SwiperSlide>
+                <img src="reimier-about-img4.png" alt="About 1" />
+                </SwiperSlide>
+
                 <SwiperSlide>
                 <img src="reimier-about-img2.png" alt="About 1" />
                 </SwiperSlide>
 
                 <SwiperSlide>
                 <img src="reimier-about-img3.png" alt="About 1" />
-                </SwiperSlide>
-
-                <SwiperSlide>
-                <img src="reimier-about-img4.png" alt="About 1" />
                 </SwiperSlide>
 
                 <SwiperSlide>
@@ -76,47 +72,45 @@ export default function About(){
 
             </div>
 
-            <div className="about-exp">
+                    <div className="about-exp">
 
-                <p className="about-titles" data-aos="fade-up">EXPERIENCE <i class="fa-brands fa-black-tie"></i></p>
+                <p className="about-titles">EXPERIENCE <i class="fa-brands fa-black-tie"></i></p>
 
-                <p className="exp-sub" data-aos="fade-up">Salesforce – Virtual Internship | 2025</p>
+                <p className="exp-sub">Salesforce – Virtual Internship | 2025</p>
 
-                <p className="exp-desc" data-aos="fade-up">Successfully completed and collected numerous Superbadges in Salesforce Trailhead, demonstrating proficiency in key platform functionalities.</p>
+                <p className="exp-desc" >Successfully completed and collected numerous Superbadges in Salesforce Trailhead, demonstrating proficiency in key platform functionalities.</p>
 
-                <p className="exp-sub" data-aos="fade-up">Calumpit MTO – Work Immersion Internship | 2023</p>
+                <p className="exp-sub" >Calumpit MTO – Work Immersion Internship | 2023</p>
 
-                <p className="exp-desc" data-aos="fade-up">Completed an 80-hour work immersion, enhancing knowledge of the local municipal treasury industry workflow and financial documentation processes.</p>
-
-                <p className="exp-desc" data-aos="fade-up">Streamlined organizational flow by arranging and archiving multiple paperwork, receipts, and related documents, resulting in an organized workplace.</p>
+                <p className="exp-desc" >Streamlined organizational flow by arranging and archiving multiple paperwork, receipts, and related documents, resulting in an organized workplace.</p>
 
             </div>
 
             <div className="about-educ">
 
-                <p className="about-titles" data-aos="fade-up" >EDUCATION <i class="fa-solid fa-graduation-cap"></i> </p>
+                <p className="about-titles"  >EDUCATION <i class="fa-solid fa-graduation-cap"></i> </p>
 
-                <p className="educ-sub" data-aos="fade-up" >Bulacan State University - Malolos Campus | 2027</p>
+                <p className="educ-sub"  >Bulacan State University - Malolos Campus | 2027</p>
 
-                <p className="educ-desc"  data-aos="fade-up">Bachelor of Science in Information Technology (BSIT). Specializes in Web and Mobile App Development.</p>
+                <p className="educ-desc"  >Bachelor of Science in Information Technology (BSIT). Specializes in Web and Mobile App Development.</p>
                 
 
-                <p className="educ-sub" data-aos="fade-up">FreeCodeCamp | 2026</p>
+                <p className="educ-sub" >FreeCodeCamp | 2026</p>
 
-                <p className="educ-desc"  data-aos="fade-up">Responsive Web Design Certification & Front-End Development Libraries Certification (In progress).</p>
+                <p className="educ-desc"  >Responsive Web Design Certification & Front-End Development Libraries Certification (In progress).</p>
 
-                <p className="educ-sub" data-aos="fade-up">Technical Education and Skills Development Authority | 2025</p>
+                <p className="educ-sub" >Technical Education and Skills Development Authority | 2025</p>
 
-                <p className="educ-desc"  data-aos="fade-up">TESDA Online Program (TOP). Certificate of Completion on Microsoft Digital Literacy, Computer System Servicing, and SMART Technopreneurship 101.</p>
+                <p className="educ-desc"  >TESDA Online Program (TOP). Certificate of Completion on Microsoft Digital Literacy, Computer System Servicing, and SMART Technopreneurship 101.</p>
 
 
             </div>
 
             <div className="about-tech">
 
-                <p className="about-titles" data-aos="fade-up">TECH STACK <i class="fa-solid fa-code"></i></p>
+                <p className="about-titles" >TECH STACK <i class="fa-solid fa-code"></i></p>
 
-                <p className="tech-sub" data-aos="fade-up">
+                <p className="tech-sub" >
                     <i className="fa-brands fa-react"></i>
                     <i className="fa-brands fa-node-js"></i>
                     <i className="fa-brands fa-npm"></i>
@@ -133,7 +127,7 @@ export default function About(){
             <div className="about-cert">
 
                 <a className="cert-link" href="https://drive.google.com/drive/folders/11N6U03qG1wlc3Or73msltMCmMV7vEpyG?usp=sharing" target="_blank" rel="noreferrer">
-                <p data-aos="fade-up" >Check out my certificates.</p>
+                <p >Check out my certificates.</p>
                 </a>
 
 

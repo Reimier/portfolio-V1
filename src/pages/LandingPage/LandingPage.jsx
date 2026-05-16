@@ -24,7 +24,7 @@ export default function LandingPage() {
 
         <div className="intro" data-aos="fade-up" >
         
-          <p id="header">CREATIVE WEB DEVELOPER AND UI/UX DESIGNER.</p>
+          <p id="header">WEB DEVELOPER WITH UI/UX DESIGN EXPERIENCE.</p>
           <p id="landing-desc" > I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
 
         </div>
@@ -40,7 +40,7 @@ export default function LandingPage() {
 
             <a href="https://drive.google.com/file/d/1cq0MdXr3m4K2iiLEo9welGJled5pKADn/view?usp=sharing" target="_blank" rel="noreferrer">
             <button id="cv">
-             <i class="fa-solid fa-file-arrow-down"></i> Download CV
+             <i class="fa-solid fa-file-arrow-down"></i> View CV
             </button>
             </a>
           </div>
