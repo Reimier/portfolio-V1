@@ -29,7 +29,7 @@ export default function Navbar() {
           <a href="#about" onClick={() => setMenuOpen(false)}>
             About
           </a>
-          <a href="#contact" onClick={() => setMenuOpen(false)}>
+          <a href="#contact-header" onClick={() => setMenuOpen(false)}>
             Contact
           </a>
         </div>

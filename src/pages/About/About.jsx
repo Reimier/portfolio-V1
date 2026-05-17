@@ -31,7 +31,7 @@ export default function About(){
             
             <div className="about-intro" data-aos="fade-up">
             
-            <p id="header">WEB DEVELOPER, TURNING IDEAS INTO ENGAGING UI.</p>
+            <p id="header">A Website Developer, Turning Ideas Into Engaging UI.</p>
             <p className="about-desc"> I'm Reimier Reyes, a 21-year-old website developer and UI/UX designer based in the province of Bulacan, Philippines.</p>
             <p className="about-desc"> I specialize in building modern, responsive web applications that combine clean, elegant design with smooth functionality. From interactive web apps to e-commerce experiences, I focus on creating user-centered digital products that are both visually appealing and highly intuitive. </p>
 
@@ -72,7 +72,7 @@ export default function About(){
 
             </div>
 
-                    <div className="about-exp">
+                <div className="about-exp">
 
                 <p className="about-titles">Experience <i class="fa-brands fa-black-tie"></i></p>
 

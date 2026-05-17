@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import AOS from "aos"; 
 import "aos/dist/aos.css"; 
 import Footer from "../../components/Footer/Footer";
+import Contact from "../Contact/Contact";
 
 export default function LandingPage() {
 
@@ -24,7 +25,7 @@ export default function LandingPage() {
 
         <div className="intro" data-aos="fade-up" >
         
-          <p id="header">WEB DEVELOPER WITH UI/UX DESIGN EXPERIENCE.</p>
+          <p id="header">Creative Web Developer with UI/UX Design Experience.</p>
           <p id="landing-desc" > I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
 
         </div>
@@ -32,7 +33,7 @@ export default function LandingPage() {
         <div className="cta" data-aos="fade-up" >
 
           <div className="cta-btns">
-            <a href="#contact" >
+            <a href="#contact-header" >
             <button id="contact">
              <i class="fa-regular fa-message"></i> Let's Talk
             </button>
@@ -114,13 +115,7 @@ export default function LandingPage() {
 
         </div>
 
-        <div className="landing-about" >
-
-          <a id="learn-more" href="#about">
-          <p >Learn more about me.</p>
-          </a>
-
-        </div>
+        <Contact></Contact>
 
         <Footer></Footer>
 

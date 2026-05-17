@@ -6,9 +6,8 @@ import { NavLink } from "react-router";
 import { useEffect } from "react";
 import AOS from "aos"; 
 import "aos/dist/aos.css"; 
-
 import toast, { Toaster } from 'react-hot-toast';
-import Footer from "../../components/Footer/Footer";
+
 
 export default function Contact(){
 
@@ -57,16 +56,16 @@ const sendEmail = (e) => {
 
         <div className="contact" >
 
-        <div className="contact-intro" data-aos="fade-up" >
+        <div className="contact-intro" >
 
-            <p id="header">WANT TO WORK TOGETHER? FEEL FREE TO SAY HELLO.</p>
+            <p id="contact-header">Want To Work Together?</p>
             <p id="contact-desc">Send me a message so that we can work together on a 
                                   project or just say hi to me! Hit me up and I’ll get back to
                                   you as soon as possible.</p>
 
         </div>
 
-        <div className="contact-page" data-aos="fade-up">
+        <div className="contact-page" >
 
         <form className="contact-form" onSubmit={sendEmail}>
 
@@ -78,13 +77,13 @@ const sendEmail = (e) => {
             </div>
 
             <label>Name</label>
-            <input placeholder="Enter your name" name="name" type="text" required />
+            <input placeholder="Enter your full name here." name="name" type="text" required />
 
             <label>Email</label>
-            <input placeholder="Enter your email" name="email" type="email" required />
+            <input placeholder="Enter your email here." name="email" type="email" required />
 
             <label>Message</label>
-            <textarea placeholder="Enter your message here" name="message" rows="6" required></textarea>
+            <textarea placeholder="Enter your message here." name="message" rows="6" required></textarea>
 
             <button className="submit-btn"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
 
@@ -94,9 +93,6 @@ const sendEmail = (e) => {
         </div>
 
         </div>
-
-          <Footer></Footer>
-
 
         </>
     )

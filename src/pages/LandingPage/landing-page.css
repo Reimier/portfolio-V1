@@ -71,7 +71,7 @@
   margin: 0;
   color: #323232;
   margin-top: 20px;
-  line-height: 1.4
+  line-height: 1.6
 
 }
 
@@ -113,107 +113,68 @@
   padding: 0 16px;
 }
 
-.landing-about{
-  width: 100%;
-  max-width: 790px;
-  margin: 0 auto;
-  padding: 0 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;  
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 120px;
-  font-size: 20px;
-  line-height: 1.4
-}
-
-#learn-more{
-
-  margin-top: 30px;
-  text-decoration: underline;
-  color: #1E1E1E;
-  transition: .3s;
-
-}
-
-#learn-more:hover {
-
-  transition: .3s;
-  opacity: 0.6;
-  cursor: pointer;
-}
 
 @media screen and (max-width: 768px) {
-
 
 
 }
 
 @media screen and (max-width: 576px) {
 
-    .intro {
+  .intro {
     padding: 0 20px;
   }
 
-#desc {
+  #landing-desc {
 
-  font-size: 20px;
-  margin: 0;
-  width: 100%;
-  margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
 
-}
-
-#header {
-
-  font-size: 36px;
-  width: 100%;
-  margin: 0;
-  margin-top: 180px;
-}
-
-.cta {
-
-  margin-top: 30px;
-  padding: 0 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;  
-  text-align: left;
-  gap: 25px;
-  
-}
-
-.cta-btns{
-  gap: 15px;
-}
-
-.cta button{
-
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  
-}
-
-.landing-socials-icon{
-  gap: 15px;
-}
-
-
-.projects {
-    grid-template-columns: 1fr;
   }
 
-.landing-about{
+  #header {
 
-  width: 100%;
-  max-width: 830px;
-  margin-bottom: 150px;
-  padding: 0 16px;
-}
+    font-size: 36px;
+    width: 100%;
+    margin: 0;
+    margin-top: 180px;
+  }
 
+  .cta {
+
+    margin-top: 30px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+    text-align: left;
+    gap: 25px;
+    
+  }
+
+  .cta-btns{
+    gap: 15px;
+  }
+
+  .cta button{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+
+  .landing-socials-icon{
+    gap: 16px;
+  }
+
+
+  .projects {
+      grid-template-columns: 1fr;
+    }
 
 }

@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar"
 import About from "./pages/About/About";
 import ScrollToTop from "./ScrollToTop";
 import Contact from "./pages/Contact/Contact";
+import ClickSpark from "./components/ClickSpark/ClickSpark";
 
 function App() {
   
@@ -14,10 +15,18 @@ function App() {
 
   return (
     <>
-
+    <ClickSpark sparkColor="#000000" sparkCount={10} sparkRadius={20} duration={450}>    </ClickSpark>
     <HashRouter>
 
       <ScrollToTop />
+
+      <ClickSpark 
+        sparkColor="#000000"
+        sparkSize={12}
+        sparkRadius={15}
+        sparkCount={8}
+        duration={400}
+        >
     
       <Navbar></Navbar>
 
@@ -25,10 +34,10 @@ function App() {
 
       <Route path="/home" element={<LandingPage />} />
       <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
       <Route path="/*" element={<Navigate to="/home" />} />
 
       </Routes>
+      </ClickSpark>
       
     </HashRouter>
     
