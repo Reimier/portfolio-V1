@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import ScrollToTop from "./ScrollToTop";
 import Contact from "./pages/Contact/Contact";
 import ClickSpark from "./components/ClickSpark/ClickSpark";
+import Meteors from "./components/Meteors/Meteors";
 
 function App() {
   
@@ -15,33 +16,35 @@ function App() {
 
   return (
     <>
-    <ClickSpark sparkColor="#000000" sparkCount={10} sparkRadius={20} duration={450}>    </ClickSpark>
-    <HashRouter>
+      {/* Background FIRST */}
+      <Meteors />
 
-      <ScrollToTop />
+      <HashRouter>
+        <ScrollToTop />
 
-      <ClickSpark 
-        sparkColor="#000000"
-        sparkSize={12}
-        sparkRadius={15}
-        sparkCount={8}
-        duration={400}
+        <ClickSpark
+          sparkColor="#000000"
+          sparkSize={12}
+          sparkRadius={15}
+          sparkCount={8}
+          duration={400}
         >
-    
-      <Navbar></Navbar>
 
-      <Routes>
+          <div style={{ position: "relative", zIndex: 1 }}>
 
-      <Route path="/home" element={<LandingPage />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/*" element={<Navigate to="/home" />} />
+            <Navbar />
 
-      </Routes>
-      </ClickSpark>
-      
-    </HashRouter>
-    
-      
+            <Routes>
+              <Route path="/home" element={<LandingPage />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/*" element={<Navigate to="/home" />} />
+            </Routes>
+
+          </div>
+
+        </ClickSpark>
+
+      </HashRouter>
     </>
   )
 }
