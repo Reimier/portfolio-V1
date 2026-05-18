@@ -6,7 +6,6 @@ import About from "./pages/About/About";
 import ScrollToTop from "./ScrollToTop";
 import Contact from "./pages/Contact/Contact";
 import ClickSpark from "./components/ClickSpark/ClickSpark";
-import Meteors from "./components/Meteors/Meteors";
 
 function App() {
   
@@ -16,8 +15,6 @@ function App() {
 
   return (
     <>
-      {/* Background FIRST */}
-      <Meteors />
 
       <HashRouter>
         <ScrollToTop />
