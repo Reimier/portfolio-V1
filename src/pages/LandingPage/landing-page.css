@@ -39,6 +39,8 @@
 
   padding-left: 30px;
   padding-right:  30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   
 }
 
@@ -48,7 +50,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    font-size: 25px;
+    font-size: 30px;
     gap: 25px;
 }
 
@@ -133,6 +135,12 @@
     width: 100%;
     margin-top: 20px;
 
+  }
+
+    .landing-socials-icon{
+
+      font-size: 25px;
+  
   }
 
   #header {

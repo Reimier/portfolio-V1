@@ -126,7 +126,7 @@ export default function About(){
             <div className="about-cert">
 
                 <a className="cert-link" href="https://drive.google.com/drive/folders/11N6U03qG1wlc3Or73msltMCmMV7vEpyG?usp=sharing" target="_blank" rel="noreferrer">
-                <p >Check out my certificates.</p>
+                <p >Check out my certificates <i class="fa-solid fa-arrow-right"></i></p>
                 </a>
 
 

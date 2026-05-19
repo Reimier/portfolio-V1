@@ -77,13 +77,13 @@ const sendEmail = (e) => {
             </div>
 
             <label>Name</label>
-            <input placeholder="Enter your full name here." name="name" type="text" required />
+            <input placeholder="Juan Dela Cruz..." name="name" type="text" required />
 
             <label>Email</label>
-            <input placeholder="Enter your email here." name="email" type="email" required />
+            <input placeholder="your_email@gmail.com..." name="email" type="email" required />
 
             <label>Message</label>
-            <textarea placeholder="Enter your message here." name="message" rows="6" required></textarea>
+            <textarea placeholder="Enter your message here..." name="message" rows="6" required></textarea>
 
             <button className="submit-btn"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
 
