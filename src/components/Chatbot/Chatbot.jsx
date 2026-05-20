@@ -8,7 +8,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([
     {
       role: "model",
-      text: "Hi! thanks for visiting. Feel free to ask me anything about web development or what I offer.",
+      text: "Hi! I'm Reimier's AI assistant 🤖. Feel free to ask me anything about his web development, projects, or education.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -82,11 +82,11 @@ export default function Chatbot() {
               <div className="chatbot-header-info">
                 <span className="chatbot-bot-name">Chat with Reimier</span>
                 <span className="chatbot-status">
-                  <span className="chatbot-green-dot"></span> Powered by Google Gemini
+                  <span className="chatbot-green-dot"></span> Powered by Gemini
                 </span>
               </div>
             </div>
-            <button onClick={() => setIsOpen(false)} className="chatbot-close-button">&times;</button>
+            <button onClick={() => setIsOpen(false)} className="chatbot-close-button"><i class="fa-solid fa-circle-xmark"></i></button>
           </div>
 
           {/* Messages Feed */}
