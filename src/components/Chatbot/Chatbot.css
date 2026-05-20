@@ -88,7 +88,7 @@
 }
 
 .chatbot-status {
-  color: #888888;
+  color: #515050;
   font-size: 11px;
   display: flex;
   align-items: center;
@@ -150,7 +150,7 @@
 }
 
 .chatbot-bubble.user {
-  background-color: #4880bd; 
+  background-color: #000000; 
   color: #ffffff; 
   border-radius: 12px 12px 2px 12px;
 }
@@ -219,4 +219,31 @@
   background-color: #eeeeee;
   color: #aaaaaa;
   cursor: not-allowed;
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
+
+@media screen and (max-width: 576px) {
+
+  .chatbot-launcher {
+  
+  bottom: 20px;
+  right: 20px;
+ 
+}
+
+
+.chatbot-box {
+
+  bottom: 30px;
+  right: 30px;
+  width: 300px;
+  height: 500px;
+
+}
+
+
 }

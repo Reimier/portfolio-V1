@@ -8,7 +8,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([
     {
       role: "model",
-      text: "Hi there! 👋 Thanks for visiting my website. Feel free to ask me anything about web development or what I offer.",
+      text: "Hi! thanks for visiting. Feel free to ask me anything about web development or what I offer.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -38,7 +38,7 @@ export default function Chatbot() {
         systemInstruction: GEMINI_SYSTEM_INSTRUCTION,
       });
 
-      // Filters out the starting welcome message so chat session starts on a 'user' turn
+      
       const history = messages
         .filter((_, index) => index > 0)
         .map((msg) => ({
@@ -82,7 +82,7 @@ export default function Chatbot() {
               <div className="chatbot-header-info">
                 <span className="chatbot-bot-name">Chat with Reimier</span>
                 <span className="chatbot-status">
-                  <span className="chatbot-green-dot"></span> Online
+                  <span className="chatbot-green-dot"></span> Powered by Google Gemini
                 </span>
               </div>
             </div>
