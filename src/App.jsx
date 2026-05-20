@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import ScrollToTop from "./ScrollToTop";
 import Contact from "./pages/Contact/Contact";
 import ClickSpark from "./components/ClickSpark/ClickSpark";
+import Chatbot from "./components/Chatbot/Chatbot";
 
 function App() {
   
@@ -42,6 +43,8 @@ function App() {
         </ClickSpark>
 
       </HashRouter>
+
+      <Chatbot></Chatbot>
     </>
   )
 }
