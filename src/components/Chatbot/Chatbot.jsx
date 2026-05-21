@@ -34,7 +34,7 @@ export default function Chatbot() {
       const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
       
       const model = genAI.getGenerativeModel({
-        model: "gemini-2.5-flash",
+        model: "gemini-2.5-flash-lite",
         systemInstruction: GEMINI_SYSTEM_INSTRUCTION,
       });
 
@@ -53,14 +53,23 @@ export default function Chatbot() {
       setMessages([...updatedMessages, { role: "model", text: responseText }]);
     } catch (error) {
       console.error("Gemini Error:", error);
+      
+      const errorString = error.toString();
+      
+      let fallbackText = "Oops, Something went wrong. Please try again in a bit!";
+      
+      if (errorString.includes("429") || errorString.includes("quota")) {
+        fallbackText = "Slow down a bit! ☕ You've hit Google's temporary free tier speed limit. Please wait about a minute before sending your next message, thanks!";
+      }
+
       setMessages([
         ...updatedMessages,
-        { role: "model", text: "Oops, Something went wrong. Please try again in a bit!" },
+        { role: "model", text: fallbackText },
       ]);
-    } finally {
-      setLoading(false);
-    }
-  };
+    }finally {
+          setLoading(false);
+        }
+      };
 
   return (
     <>
