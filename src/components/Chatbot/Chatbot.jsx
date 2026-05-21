@@ -8,7 +8,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([
     {
       role: "model",
-      text: "Hi! I'm Reimier's AI assistant 🤖. Feel free to ask me anything about his web development, projects, or education.",
+      text: "Hi! I'm Reimier's AI assistant 🤖. Feel free to ask me anything about his projects, experience, or education.",
     },
   ]);
   const [input, setInput] = useState("");
