@@ -40,7 +40,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom" >
-        <p >©reimierreyes2026</p>
+        <p >© 2026 Reimier Reyes. All rights reserved.</p>
       </div>
     </footer>
   );
