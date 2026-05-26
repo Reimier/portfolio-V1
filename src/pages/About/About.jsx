@@ -1,8 +1,5 @@
 
 import "./about.css";
-import { useEffect } from "react";
-import AOS from "aos"; 
-import "aos/dist/aos.css"; 
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
@@ -15,21 +12,12 @@ import Footer from "../../components/Footer/Footer";
 
 export default function About(){
 
-      useEffect(() => {
-        AOS.init({
-          duration: 800, 
-          once: true,
-          easing: 'ease-in-out',
-          offset: 100,
-        });
-      }, []);
-
     return(
         <>
 
         <div className="about">
             
-            <div className="about-intro" data-aos="fade-up">
+            <div className="about-intro" >
             
             <p id="header">Turning Ideas Into Engaging UI.</p>
             <p className="about-desc"> I'm Reimier Reyes, a 21-year-old website developer and UI/UX designer based in the province of Bulacan, Philippines.</p>
@@ -37,7 +25,7 @@ export default function About(){
 
             </div>
 
-            <div className="about-img" data-aos="fade-up">
+            <div className="about-img">
 
                 <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
@@ -46,7 +34,7 @@ export default function About(){
                 spaceBetween={20}
                 slidesPerView={1}
                 autoplay={{
-                    delay: 3000,
+                    delay: 2500,
                     disableOnInteraction: false,
                 }}
                 loop={true}
@@ -74,7 +62,7 @@ export default function About(){
 
                 <div className="about-exp">
 
-                <p className="about-titles"><i class="fa-brands fa-black-tie"></i> Experience</p>
+                <p className="about-titles"><i class="fa-solid fa-suitcase"></i> Experience</p>
 
                 <p className="exp-sub">Salesforce – Virtual Internship | 2025</p>
 
@@ -107,7 +95,7 @@ export default function About(){
 
             <div className="about-tech">
 
-                <p className="about-titles" ><i class="fa-solid fa-code"></i> Tech Stack</p>
+                <p className="about-titles" ><i class="fa-solid fa-layer-group"></i> Tech Stack</p>
 
                 <p className="tech-sub" >
                     <i className="fa-brands fa-react"></i>

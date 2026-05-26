@@ -2,35 +2,25 @@
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./landing-page.css";
 import { NavLink } from "react-router";
-import { useEffect } from "react";
-import AOS from "aos"; 
-import "aos/dist/aos.css"; 
 import Footer from "../../components/Footer/Footer";
 import Contact from "../Contact/Contact";
 
 export default function LandingPage() {
 
-  useEffect(() => {
-    AOS.init({
-      duration: 800, 
-      once: true,
-      easing: 'ease-in-out',
-    });
-  }, []);
 
   return (
     <>
 
     <div className="landing">
 
-        <div className="intro" data-aos="fade-up" >
+        <div className="intro"  >
         
-          <p id="header">Creative Web Developer with UI/UX Design Experience.</p>
+          <p id="header">Creative Web Developer With UI/UX Design Experience.</p>
           <p id="landing-desc" > I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
 
         </div>
 
-        <div className="cta" data-aos="fade-up" >
+        <div className="cta" >
 
           <div className="cta-btns">
             <a href="#contact-header" >
@@ -57,7 +47,7 @@ export default function LandingPage() {
         </div>
 
 
-        <div data-aos="fade-up" className="projects" id="projs">
+        <div className="projects" id="projs">
 
           <ProjectCard 
 

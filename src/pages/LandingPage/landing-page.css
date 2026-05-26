@@ -16,6 +16,7 @@
   flex-direction: column;
   align-items: flex-start;  
   text-align: left;
+  animation: fadeUp 0.7s 0.1s ease both;
 }
 
 .cta {
@@ -26,6 +27,7 @@
   display: flex;
   justify-content: flex-start; 
   gap: 20px;
+  animation: fadeUp 0.7s 0.1s ease both;
 }
 
 .cta-btns {
@@ -79,10 +81,10 @@
 
 #header {
 
-  font-size: 48px;
+  font-size: 42px;
   max-width: 100%;
   margin: 0;
-  margin-top: 160px;
+  margin-top: 140px;
   font-weight: 800;
 }
 
@@ -113,6 +115,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
+  animation: fadeUp 0.7s 0.1s ease both;
 }
 
 
@@ -148,7 +151,7 @@
     font-size: 36px;
     width: 100%;
     margin: 0;
-    margin-top: 160px;
+    margin-top: 140px;
   }
 
   .cta {

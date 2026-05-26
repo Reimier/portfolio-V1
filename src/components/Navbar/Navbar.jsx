@@ -1,28 +1,19 @@
 import "./navbar.css";
 import { useState, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  useEffect(() => {
-    AOS.init({
-      duration: 800,
-      once: true,
-      easing: "ease-in-out",
-    });
-  }, []);
 
   return (
     <>
       <nav>
-        <div className="brand" data-aos="fade-left">
+        <div className="brand" >
           <img className="navbar-img" src="favicon1.png" alt="logo" />
           <a href="#">Reimier Reyes</a>
         </div>
 
-        <div className={`links ${menuOpen ? "active" : ""}`} data-aos="fade-right">
+        <div className={`links ${menuOpen ? "active" : ""}`} >
           <a href="#projs" onClick={() => setMenuOpen(false)}>
             Projects
           </a>
