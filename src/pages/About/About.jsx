@@ -19,7 +19,7 @@ export default function About(){
             
             <div className="about-intro" >
             
-            <p id="header">Turning Ideas Into Engaging UI.</p>
+            <p id="header">Turning Ideas Into <span>Engaging</span> UI.</p>
             <p className="about-desc"> I'm Reimier Reyes, a 21-year-old website developer and UI/UX designer based in the province of Bulacan, Philippines.</p>
             <p className="about-desc"> I specialize in building modern, responsive web applications that combine clean, elegant design with smooth functionality. From interactive web apps to e-commerce experiences, I focus on creating user-centered digital products that are both visually appealing and highly intuitive. </p>
 

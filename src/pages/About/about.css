@@ -5,6 +5,14 @@
     margin-top: 0px;
 }
 
+.about-intro span{
+
+    background: linear-gradient(90deg, #5056ff 0%, #fb63f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .about-intro, .about-tech, .about-exp, .about-educ, .about-cert{
   width: 100%;
   max-width: 790px;

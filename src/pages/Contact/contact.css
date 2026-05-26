@@ -19,6 +19,15 @@
   font-weight: 800;
 }
 
+#contact-header span{
+
+  background: linear-gradient(90deg, #5056ff 0%, #fb63f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
 #contact-header {
   scroll-margin-top: 100px;
 }

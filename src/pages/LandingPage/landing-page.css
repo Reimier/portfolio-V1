@@ -19,6 +19,14 @@
   animation: fadeUp 0.7s 0.1s ease both;
 }
 
+.intro span{
+
+  background: linear-gradient(90deg, #5056ff 0%, #fb63f9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .cta {
   width: 100%;
   max-width: 790px;

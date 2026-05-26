@@ -15,7 +15,7 @@ export default function LandingPage() {
 
         <div className="intro"  >
         
-          <p id="header">Creative Web Developer With UI/UX Design Experience.</p>
+          <p id="header">Hello! I'm a  <span>Creative Web Developer</span> with UI/UX Design Experience.</p>
           <p id="landing-desc" > I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
 
         </div>

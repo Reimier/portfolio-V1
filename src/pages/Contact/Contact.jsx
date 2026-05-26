@@ -58,7 +58,7 @@ const sendEmail = (e) => {
 
         <div className="contact-intro" >
 
-            <p id="contact-header">Want To Work Together?</p>
+            <p id="contact-header">Want To <span>Work</span> Together?</p>
             <p id="contact-desc">Send me a message so that we can work together on a 
                                   project or just say hi to me! Hit me up and I’ll get back to
                                   you as soon as possible.</p>
