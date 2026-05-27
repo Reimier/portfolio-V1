@@ -2,21 +2,20 @@
 .chatbot-launcher {
   position: fixed;
   bottom: 30px;
-  right: 40px;
+  right: 30px;
   z-index: 9999;
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 10px 25px;
+  padding: 12px 25px;
   border-radius: 10px; 
   color: #ffffff; 
   background: rgb(0, 0, 0);
   backdrop-filter: blur(20px);
   border: 1px solid rgba(130, 130, 130, 0.35);
   cursor: pointer;
-  font-family: system-ui, -apple-system, sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   transition: all 0.2s ease;
 }
 
@@ -174,7 +173,7 @@
 .chatbot-input-area {
   display: flex;
   padding: 12px;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid rgba(130, 130, 130, 0.35);
   background-color: #ffffff; 
   align-items: center;
 }

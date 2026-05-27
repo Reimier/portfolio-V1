@@ -37,10 +37,10 @@ export default function LandingPage() {
           </div>
 
             <div className="landing-socials-icon">
-            <a href="https://github.com/reimier" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-github"></i> </a>
-            <a href="https://www.instagram.com/ier_reyes/?hl=en" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-instagram"></i> </a>
-            <a href="https://www.linkedin.com/in/reimier-reyes-380a67355/" target="_blank" rel="noreferrer" className="icons"> <i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="mailto:reimierreyes0221@gmail.com" target="_blank" rel="noreferrer" className="icons"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://github.com/reimier" target="_blank" rel="noreferrer" className="icons" id="github"> <i class="fa-brands fa-github"></i> </a>
+            <a href="https://www.instagram.com/ier_reyes/?hl=en" target="_blank" rel="noreferrer" className="icons" id="ig" > <i class="fa-brands fa-instagram"></i> </a>
+            <a href="https://www.linkedin.com/in/reimier-reyes-380a67355/" target="_blank" rel="noreferrer" className="icons" id="in"> <i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:reimierreyes0221@gmail.com" target="_blank" rel="noreferrer" className="icons" id="email"><i class="fa-regular fa-envelope"></i></a>
             </div>
 
 
@@ -72,7 +72,7 @@ export default function LandingPage() {
           ]}
 
           title= "Shop Express "
-          desc = "An e-commerce mockup showcasing a modern online store. Built with dummy API product data and Firebase for authentication and real-time features. Includes product browsing, user authentication, and a clean design."
+          desc = "An e-commerce mockup showcasing a modern online store. Built with dummy API product data and Firebase for authentication and real-time database. Includes product browsing, user authentication, and a clean design."
           site = "https://reimier.github.io/shop-express/#/home"
         
           />

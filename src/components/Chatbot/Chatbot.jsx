@@ -76,7 +76,7 @@ export default function Chatbot() {
       {/* FLOATING LAUNCHER BUTTON */}
       {!isOpen && (
         <button onClick={() => setIsOpen(true)} className="chatbot-launcher">
-          <i class="fa-solid fa-message"></i>
+          <i class="fa-solid fa-comment-dots"></i>
           <span>Chat with Rei</span>
         </button>
       )}

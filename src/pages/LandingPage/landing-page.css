@@ -20,7 +20,7 @@
 }
 
 .intro span {
-  background: linear-gradient(90deg, #5056ff 0%, #fb63f9 100%);
+  background: linear-gradient(90deg, #5056ff 0%, #ff45fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.02em;
@@ -35,7 +35,7 @@
   display: flex;
   justify-content: flex-start; 
   gap: 20px;
-  animation: fadeUp 0.7s 0.1s ease both;
+  animation: fadeUp 0.8s 0.1s ease both;
 }
 
 .cta-btns {
@@ -49,9 +49,37 @@
 
   padding-left: 30px;
   padding-right:  30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   
+}
+
+.cta-btns button i {
+  margin-right: 8px;
+}
+
+#github:hover{
+
+  color: #323232;
+}
+
+#ig:hover{
+
+  background: linear-gradient(90deg, #FFCA00 0%, #D200C4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+}
+
+#in:hover{
+
+  color: #0A66C2;
+}
+
+#email:hover{
+
+  color: #ff3a3a;
 }
 
 .landing-socials-icon{
@@ -60,7 +88,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    font-size: 30px;
+    font-size: 32px;
     gap: 25px;
 }
 
@@ -97,19 +125,20 @@
 }
 
 
-
 #cv{
 
   color: #000000;
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(20px);
 
-  border: 1px solid rgba(130, 130, 130, 0.35);
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.35);
 
 }
 
 #contact{
 
+  font-size: 14px;
   background-color: #000000;
   color: white;
 }
@@ -123,7 +152,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
-  animation: fadeUp 0.7s 0.1s ease both;
+  animation: fadeUp 0.9s 0.1s ease both;
 }
 
 
