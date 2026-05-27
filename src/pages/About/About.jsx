@@ -62,7 +62,7 @@ export default function About(){
 
                 <div className="about-exp">
 
-                <p className="about-titles"><i class="fa-solid fa-suitcase"></i> Experience</p>
+                <p className="about-titles"><i class="fa-solid fa-suitcase"></i> Work Experience</p>
 
                 <p className="exp-sub">Salesforce – Virtual Internship | 2025</p>
 

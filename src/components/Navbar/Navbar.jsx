@@ -1,5 +1,7 @@
+import { NavLink } from "react-router";
 import "./navbar.css";
 import { useState, useEffect } from "react";
+import ScrollToTop from "../../ScrollToTop";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,19 +12,19 @@ export default function Navbar() {
       <nav>
         <div className="brand" >
           <img className="navbar-img" src="favicon1.png" alt="logo" />
-          <a href="#">Reimier Reyes</a>
+          <NavLink to="/" onClick={ScrollToTop}>Reimier Reyes</NavLink>
         </div>
 
         <div className={`links ${menuOpen ? "active" : ""}`} >
-          <a href="#projs" onClick={() => setMenuOpen(false)}>
+          <NavLink to="/#projs" onClick={() => setMenuOpen(false)}>
             Projects
-          </a>
-          <a href="#about" onClick={() => setMenuOpen(false)}>
+          </NavLink>
+          <NavLink to="/about" onClick={() => setMenuOpen(false)}>
             About
-          </a>
-          <a href="#contact-header" onClick={() => setMenuOpen(false)}>
+          </NavLink>
+          <NavLink to="/#contact-header" onClick={() => setMenuOpen(false)}>
             Contact
-          </a>
+          </NavLink>
         </div>
 
         <div

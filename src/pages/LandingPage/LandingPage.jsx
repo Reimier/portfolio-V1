@@ -23,11 +23,11 @@ export default function LandingPage() {
         <div className="cta" >
 
           <div className="cta-btns">
-            <a href="#contact-header" >
+            <NavLink to="#contact-header" >
             <button id="contact">
              <i class="fa-regular fa-message"></i> Let's Talk
             </button>
-            </a>
+            </NavLink>
 
             <a href="https://drive.google.com/file/d/1cq0MdXr3m4K2iiLEo9welGJled5pKADn/view?usp=sharing" target="_blank" rel="noreferrer">
             <button id="cv">

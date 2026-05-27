@@ -1,4 +1,4 @@
-import { BrowserRouter, HashRouter, Routes, Route, Navigate } from "react-router"
+import { BrowserRouter, Routes, Route, Navigate } from "react-router"
 import LandingPage from "./pages/LandingPage/LandingPage"
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/Navbar/Navbar"
@@ -7,6 +7,7 @@ import ScrollToTop from "./ScrollToTop";
 import Contact from "./pages/Contact/Contact";
 import ClickSpark from "./components/ClickSpark/ClickSpark";
 import Chatbot from "./components/Chatbot/Chatbot";
+import ScrollToHash from "./components/ScrollToHash/ScrollToHash";
 
 function App() {
   
@@ -17,8 +18,9 @@ function App() {
   return (
     <>
 
-      <HashRouter>
+      <BrowserRouter>
         <ScrollToTop />
+        <ScrollToHash/>
 
         <ClickSpark
           sparkColor="#000000"
@@ -33,16 +35,16 @@ function App() {
             <Navbar />
 
             <Routes>
-              <Route path="/home" element={<LandingPage />} />
+              <Route path="/" element={<LandingPage />} />
               <Route path="/about" element={<About />} />
-              <Route path="/*" element={<Navigate to="/home" />} />
+              <Route path="/*" element={<Navigate to="/" />} />
             </Routes>
 
           </div>
 
         </ClickSpark>
 
-      </HashRouter>
+      </BrowserRouter>
 
       <Chatbot></Chatbot>
     </>

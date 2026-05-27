@@ -63,7 +63,7 @@
     background: rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(20px);
 
-    border: 1px solid rgba(130, 130, 130, 0.35);
+    border: 1px solid rgba(0, 0, 0, 0.35);
     border-radius: 10px;
 
 }
@@ -170,5 +170,17 @@ textarea {
         font-size: 25px;
 
     }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    #contact-header {
+
+    font-size: 32px;
+    width: 100%;
+    margin: 0;
+    margin-top: 80px;
+  }
 
 }

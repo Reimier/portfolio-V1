@@ -11,7 +11,7 @@
   max-width: 790px;
   margin: 0 auto;
   padding: 0 20px;
-  line-height: 1.1;
+  line-height: 1.2;
   display: flex;
   flex-direction: column;
   align-items: flex-start;  
@@ -19,11 +19,11 @@
   animation: fadeUp 0.7s 0.1s ease both;
 }
 
-.intro span{
-
+.intro span {
   background: linear-gradient(90deg, #5056ff 0%, #fb63f9 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: -0.02em;
   background-clip: text;
 }
 
@@ -195,5 +195,18 @@
   .projects {
       grid-template-columns: 1fr;
     }
+
+}
+
+@media screen and (max-width: 380px) {
+
+  #header {
+
+    font-size: 32px;
+    width: 100%;
+    margin: 0;
+    margin-top: 140px;
+  }
+
 
 }

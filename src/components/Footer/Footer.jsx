@@ -1,7 +1,23 @@
+import { NavLink } from "react-router";
 import "./footer.css";
+import ScrollToTop from "../../ScrollToTop";
+import ScrollToHash from "../ScrollToHash/ScrollToHash";
 
 
 export default function Footer() {
+
+const scrollToSection = (id) => {
+
+    if (location.pathname !== "/") {
+      window.location.href = `/#${id}`;
+    } else {
+
+      document.getElementById(id)?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
 
   return (
     <footer className="footer-container">
@@ -14,10 +30,10 @@ export default function Footer() {
           <div className="footer-column">
             <h3>SITEMAP:</h3>
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#projs">Projects</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact-header">Contact</a></li>
+              <li><NavLink to="/" onClick={ScrollToTop}>Home</NavLink></li>
+              <li><NavLink to="/" onClick={() => scrollToSection("projs")}>Projects</NavLink></li>
+              <li><NavLink to="/about">About</NavLink></li>
+              <li><NavLink to="/"onClick={() => scrollToSection("contact-header")}>Contact</NavLink></li>
             </ul>
           </div>
 
