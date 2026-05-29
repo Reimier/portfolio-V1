@@ -54,6 +54,8 @@ export default function LandingPage() {
             images={[
             "fairfly1.png",
             "fairfly2.png",
+            "fairfly3.png",
+            "fairfly4.png",
           ]}
           title= "Fairfly Travel and Tours (2026)"
           desc = "A franchising portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our team made for Fairfly travel agency to enhance the business scalability using realtime database of Firebase."
