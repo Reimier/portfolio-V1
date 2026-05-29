@@ -49,6 +49,18 @@ export default function LandingPage() {
 
         <div className="projects" id="projs">
 
+          <ProjectCard
+
+            images={[
+            "fairfly1.png",
+            "fairfly2.png",
+          ]}
+          title= "Fairfly Travel and Tours (2026)"
+          desc = "A franchising portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our team made for Fairfly travel agency to enhance the business scalability using realtime database of Firebase."
+          site = "https://reimier.github.io/shop-express/#/home"
+        
+          /> 
+
           <ProjectCard 
 
           images={[
@@ -90,18 +102,6 @@ export default function LandingPage() {
         
           />
 
-          {/* <ProjectCard
-
-            images={[
-            "shop1.png",
-            "shop2.png",
-            "shop3.png",
-          ]}
-          title= "Fairfly Travel and Tours (2026)"
-          desc = "A franchising portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our group made for Fairfly travel agency to enhance the business scalability using realtime database of Firebase."
-          site = "https://reimier.github.io/shop-express/#/home"
-        
-          /> */}
 
         </div>
 
