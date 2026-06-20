@@ -82,9 +82,9 @@ export default function About(){
 
                 <p className="educ-desc"  >Bachelor of Science in Information Technology (BSIT). Specializes in Web and Mobile App Development.</p>
                 
-                <p className="educ-sub" >FreeCodeCamp | 2026</p>
+                {/* <p className="educ-sub" >FreeCodeCamp | 2026</p>
 
-                <p className="educ-desc"  >Responsive Web Design Certification & Front-End Development Libraries Certification (In progress).</p>
+                <p className="educ-desc"  >Responsive Web Design Certification & Front-End Development Libraries Certification (In progress).</p> */}
 
                 <p className="educ-sub" >Technical Education and Skills Development Authority | 2025</p>
 

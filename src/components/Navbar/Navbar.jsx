@@ -19,12 +19,15 @@ export default function Navbar() {
           <NavLink to="/#projs" onClick={() => setMenuOpen(false)}>
             Projects
           </NavLink>
-          <NavLink to="/about" onClick={() => setMenuOpen(false)}>
-            About
-          </NavLink>
+
           <NavLink to="/#contact-header" onClick={() => setMenuOpen(false)}>
             Contact
           </NavLink>
+
+          <NavLink to="/about" onClick={() => setMenuOpen(false)}>
+            About
+          </NavLink>
+
         </div>
 
         <div
