@@ -77,7 +77,7 @@ export default function Chatbot() {
       {!isOpen && (
         <button onClick={() => setIsOpen(true)} className="chatbot-launcher">
           <i class="fa-solid fa-comment-dots"></i>
-          <span>Chat with Rei</span>
+          <span>Ask About Me</span>
         </button>
       )}
 
