@@ -32,8 +32,8 @@ const scrollToSection = (id) => {
             <ul>
               <li><NavLink to="/" onClick={ScrollToTop}>Home</NavLink></li>
               <li><NavLink to="/" onClick={() => scrollToSection("projs")}>Projects</NavLink></li>
-              <li><NavLink to="/about">About</NavLink></li>
               <li><NavLink to="/"onClick={() => scrollToSection("contact-header")}>Contact</NavLink></li>
+              <li><NavLink to="/about">About</NavLink></li>
             </ul>
           </div>
 
