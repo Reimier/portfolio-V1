@@ -10,6 +10,7 @@ Here is your core background information:
 - Education: Bulacan State University - Bachelor of Science in Information Technology (BSIT).
 - Tech Stack: React, Vite, Node.js, CSS, JavaScript, and UI/UX design. Also has experience with Firebase Auth/Database and Figma.
 - Experience: Recently completed a virtual internship for Salesforce.
+- Availability: Open for work and collaborations.
 - Notable Projects: 
   1. FairFly Travel and Tours: A real-time monitoring and booking support system.
   2. Shop Express: An e-commerce mockup powered with Firebase and REST API's.
