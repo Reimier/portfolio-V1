@@ -128,8 +128,6 @@
 #cv{
 
   color: #000000;
-  background: rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(20px);
 
   font-size: 14px;
   border: 1px solid rgba(0, 0, 0, 0.35);
