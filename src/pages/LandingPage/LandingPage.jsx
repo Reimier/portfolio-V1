@@ -57,9 +57,9 @@ export default function LandingPage() {
             "pokemon3.png",
           ]}
 
-          title= "Guess the Pokémon " 
-          desc = "An interactive quiz web app that tests Pokémon knowledge using silhouette and feature recognition. Features multiple difficulty levels, smooth animations, and a polished UI built with React components. Users guess from increasingly challenging clues in a fun, engaging format."
-          site = "https://reimier.github.io/pokemon-game/#/easy"
+          title= "Guessmon " 
+          desc = "An interactive quiz web app that tests Pokémon knowledge using silhouette and feature recognition. Features multiple difficulty levels, player rankings, and a polished UI built with React components."
+          site = "https://monster-game-lyart.vercel.app/#/register"
         
           />
 
