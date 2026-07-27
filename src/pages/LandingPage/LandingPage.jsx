@@ -52,9 +52,10 @@ export default function LandingPage() {
           <ProjectCard 
 
           images={[
-            "pokemon1.png",
-            "pokemon2.png",
-            "pokemon3.png",
+            "monster1.png",
+            "monster2.png",
+            "monster3.png",
+            "monster4.png",
           ]}
 
           title= "Guessmon " 
