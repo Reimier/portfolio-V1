@@ -23,7 +23,7 @@ const scrollToSection = (id) => {
     <footer className="footer-container">
       <div className="footer-content">
         <div className="footer-left">
-          <h1 >Get In Touch With Me!</h1>
+          <h1 >Get In <span>Touch</span> With Me!</h1>
         </div>
 
         <div className="footer-right">

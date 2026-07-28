@@ -15,7 +15,7 @@ export default function LandingPage() {
 
         <div className="intro"  >
         
-          <p id="header">Hello! I'm a  <span>Creative Web Developer</span> with UI/UX Design Experience.</p>
+          <p id="header">Hello! I'm a <span>Creative Web Developer</span> with UI/UX Design Experience.</p>
           <p id="landing-desc" > I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.</p>
 
         </div>
@@ -58,9 +58,9 @@ export default function LandingPage() {
             "fairfly4.png",
           ]}
           title= "Fairfly Travel and Tours"
-          desc = "A franchising portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our team made for Fairfly travel agency to enhance the business scalability using realtime database of Firebase."
+          desc = "A portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our team made for Fairfly travel agency."
           site = "https://reimier.github.io/shop-express/#/home"
-        
+          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "Gemini API"]}
           /> 
 
           <ProjectCard 
@@ -73,9 +73,9 @@ export default function LandingPage() {
           ]}
 
           title= "Guessmon " 
-          desc = "An interactive quiz web app that tests Pokémon knowledge using silhouette and feature recognition. Features multiple difficulty levels, player rankings, and a polished UI built with React components."
+          desc = "An interactive quiz web app that tests Pokémon knowledge using silhouette and feature recognition."
           site = "https://monster-game-lyart.vercel.app/#/register"
-        
+          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "REST API"]}
           />
 
           <ProjectCard
@@ -87,9 +87,9 @@ export default function LandingPage() {
           ]}
 
           title= "Shop Express "
-          desc = "An e-commerce mockup showcasing a modern online store. Built with dummy API product data and Firebase for authentication and real-time database. Includes product browsing, user authentication, and a clean design."
+          desc = "An e-commerce mockup showcasing REST API and Firebase for authentication and database integration."
           site = "https://reimier.github.io/shop-express/#/home"
-        
+          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "REST API"]}
           />
 
           <ProjectCard
@@ -100,9 +100,9 @@ export default function LandingPage() {
             "currency3.png",
           ]}
           title= "Currency Hub "
-          desc = "A real-time currency converter that delivers instant exchange rate calculations. Users can input any amount and instantly see the conversions across multiple currencies using live data from a public REST API."
+          desc = "A real-time currency converter with instant exchange rate calculations. This app updates everyday."
           site = "https://reimier.github.io/currency-exchange/#/"
-        
+          stack={["JavaScript", "React", "Vite", "Node.js", "REST API"]}
           />
 
 

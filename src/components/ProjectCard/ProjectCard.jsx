@@ -10,8 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-
-export default function ProjectCard({ images, title, desc, site }) {
+export default function ProjectCard({ images, title, desc, site, stack }) {
   
   return (
     <div className="card" >
@@ -43,6 +42,13 @@ export default function ProjectCard({ images, title, desc, site }) {
         <p>{desc}</p>
       </div>
 
+      {stack && stack.length > 0 && (
+        <div className="card-stack">
+          {stack.map((tech, index) => (
+            <span key={index} className="stack-tag">{tech}</span>
+          ))}
+        </div>
+      )}
 
     </div>
   );
