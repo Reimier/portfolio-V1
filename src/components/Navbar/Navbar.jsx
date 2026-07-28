@@ -17,15 +17,15 @@ export default function Navbar() {
 
         <div className={`links ${menuOpen ? "active" : ""}`} >
           <NavLink to="/#projs" onClick={() => setMenuOpen(false)}>
-            <i class="fa-solid fa-folder"></i> Projects
+            Projects
           </NavLink>
 
           <NavLink to="/#contact-header" onClick={() => setMenuOpen(false)}>
-            <i class="fa-solid fa-phone"></i> Contact
+            Contact
           </NavLink>
 
           <NavLink to="/about" onClick={() => setMenuOpen(false)}>
-           <i class="fa-solid fa-circle-info"></i> About
+            About
           </NavLink>
 
         </div>
