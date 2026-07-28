@@ -59,8 +59,8 @@ export default function LandingPage() {
           ]}
           title= "Fairfly Travel and Tours"
           desc = "A portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our team made for Fairfly travel agency."
-          site = "https://reimier.github.io/shop-express/#/home"
-          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "Gemini API"]}
+          site = ""
+          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "GitHub","Gemini API"]}
           /> 
 
           <ProjectCard 
@@ -75,7 +75,7 @@ export default function LandingPage() {
           title= "Guessmon " 
           desc = "An interactive quiz web app that tests Pokémon knowledge using silhouette and feature recognition."
           site = "https://monster-game-lyart.vercel.app/#/register"
-          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "REST API"]}
+          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "GitHub", "REST API"]}
           />
 
           <ProjectCard
@@ -89,7 +89,7 @@ export default function LandingPage() {
           title= "Shop Express "
           desc = "An e-commerce mockup showcasing REST API and Firebase for authentication and database integration."
           site = "https://reimier.github.io/shop-express/#/home"
-          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "REST API"]}
+          stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "GitHub", "REST API"]}
           />
 
           <ProjectCard
@@ -102,7 +102,7 @@ export default function LandingPage() {
           title= "Currency Hub "
           desc = "A real-time currency converter with instant exchange rate calculations. This app updates everyday."
           site = "https://reimier.github.io/currency-exchange/#/"
-          stack={["JavaScript", "React", "Vite", "Node.js", "REST API"]}
+          stack={["JavaScript", "React", "Vite", "Node.js", "GitHub", "REST API"]}
           />
 
 
