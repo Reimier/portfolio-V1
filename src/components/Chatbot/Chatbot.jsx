@@ -77,7 +77,7 @@ export default function Chatbot() {
       {!isOpen && (
         <button onClick={() => setIsOpen(true)} className="chatbot-launcher">
           <i class="fa-solid fa-circle-question"></i>
-          <span>Ask Me</span>
+          <span>Ask AI</span>
         </button>
       )}
 
