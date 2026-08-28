@@ -72,6 +72,10 @@ export default function About(){
                 <div className="about-exp" data-aos="fade-up">
 
                 <p data-aos="fade-up" className="about-titles"><i class="fa-solid fa-suitcase"></i> Work Experience</p>
+                
+                <p data-aos="fade-up" className="exp-sub">Capstone – Lead Researcher | 2026</p>
+
+                <p data-aos="fade-up" className="exp-desc" >Lead and manage a team of 5 members to complete and accomplish a capstone project</p>
 
                 <p data-aos="fade-up" className="exp-sub">Salesforce – Virtual Internship | 2025</p>
 
