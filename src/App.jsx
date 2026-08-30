@@ -1,10 +1,7 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router"
-import LandingPage from "./pages/LandingPage/LandingPage"
-import Footer from "./components/Footer/Footer"
-import Navbar from "./components/Navbar/Navbar"
-import About from "./pages/About/About";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router";
+import LandingPage from "./pages/LandingPage/LandingPage";
+import Navbar from "./components/Navbar/Navbar";
 import ScrollToTop from "./ScrollToTop";
-import Contact from "./pages/Contact/Contact";
 import ClickSpark from "./components/ClickSpark/ClickSpark";
 import Chatbot from "./components/Chatbot/Chatbot";
 import ScrollToHash from "./components/ScrollToHash/ScrollToHash";
@@ -27,14 +24,12 @@ function App() {
           sparkCount={8}
           duration={400}
         >
-
-              <Navbar />
-              <Routes>
-                <Route path="/" element={<LandingPage />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/*" element={<Navigate to="/" />} />
-              </Routes>
-
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/about" element={<Navigate to="/#about" replace />} />
+            <Route path="/*" element={<Navigate to="/" />} />
+          </Routes>
         </ClickSpark>
       </BrowserRouter>
 
@@ -43,4 +38,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
