@@ -10,9 +10,9 @@ export default function LandingPage() {
     <>
       <div className="landing">
         <div className="intro">
-          <p id="header">Hello! I'm a <span>Creative Web Developer</span> with UI/UX Design Experience.</p>
+          <p id="header">Hello! I'm a <span id="wd">Website Developer</span> that Builds and Scale <span id="dp">Digital Products.</span></p>
           <p id="landing-desc">
-            I create modern websites that combine elegant visuals with engaging design. My work is focused on bringing ideas to life with creative and user-centered digital experiences.
+            I build clean and usable websites for real people that don’t feel like they were made just to look good. Most of my work starts messy and ends up simple. That’s the part I enjoy.
           </p>
         </div>
 
