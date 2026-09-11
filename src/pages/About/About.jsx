@@ -218,14 +218,14 @@ export default function About() {
         </p>
 
         <div className="about-card">
-          {/* <div className="card-item">
+          <div className="card-item">
             <p className="exp-sub">Capstone – Lead Researcher | 2026</p>
             <p className="exp-desc">
               Lead and manage a team of 5 members to complete and accomplish a capstone project
             </p>
           </div>
 
-          <div className="card-divider"></div> */}
+          <div className="card-divider"></div> 
 
           <div className="card-item">
             <p className="exp-sub">Salesforce Trailhead – Virtual Internship | 2025</p>
