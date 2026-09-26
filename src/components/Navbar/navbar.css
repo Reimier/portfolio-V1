@@ -132,6 +132,7 @@ nav {
   .links {
     position: absolute;
     top: 130%;
+    /* Positions the menu directly below the navbar */
     right: 16px;
     flex-direction: column;
     align-items: center;
