@@ -64,7 +64,6 @@ nav {
 }
 
 .nav-item:hover {
-  transform: translateY(-3px);
   font-weight: 600;
   color: #000000;
   background: rgba(0, 0, 0, 0.07);
