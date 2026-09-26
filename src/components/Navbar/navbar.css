@@ -57,7 +57,7 @@ nav {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.85);
   padding: 5px 12px;
-  border-radius: 999px;
+  border-radius: 0px;
   transition: 0.3s;
   display: inline-flex;
   align-items: center;
@@ -113,7 +113,7 @@ nav {
 @media screen and (max-width: 768px) {
   nav {
     padding: 16px 24px;
-    /* Optional: tighter padding for tablets */
+    
   }
 }
 
@@ -131,8 +131,7 @@ nav {
 
   .links {
     position: absolute;
-    top: 100%;
-    /* Positions the menu directly below the navbar */
+    top: 130%;
     right: 16px;
     flex-direction: column;
     align-items: center;
@@ -146,7 +145,7 @@ nav {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(130, 130, 130, 0.35);
-    border-radius: 20px;
+    border-radius: 0px;
 
     opacity: 0;
     visibility: hidden;

@@ -15,7 +15,6 @@ export default function Navbar() {
 
       const scrollPos = window.scrollY + 220;
 
-      // When near the top, no link is active
       if (window.scrollY < 200) {
         setActiveSection("");
         return;
