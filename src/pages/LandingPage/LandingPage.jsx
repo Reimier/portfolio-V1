@@ -57,7 +57,7 @@ export default function LandingPage() {
             ]}
             title="Fairfly Travel and Tours"
             desc="A portal-like system with AI chatbot for business inquiry. Fairfly is a capstone project that our team made for Fairfly travel agency."
-            site=""
+            site="https://fairfly-1e83b.web.app/home"
             stack={["JavaScript", "React", "Vite", "Node.js", "Firebase", "GitHub", "Gemini API"]}
           />
 
