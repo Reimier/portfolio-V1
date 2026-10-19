@@ -214,6 +214,9 @@ export default function About() {
           <SwiperSlide>
             <img src="reimier-about-img5.png" alt="About 4" />
           </SwiperSlide>
+          <SwiperSlide>
+            <img src="final defense picture.jpg" alt="About 5" />
+          </SwiperSlide>
         </Swiper>
       </div>
 
